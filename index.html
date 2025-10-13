@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Rama Seeds - Crop Manual Portal</title>
+    
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="orange darken-2">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">
+                <i class="material-icons left">eco</i>Sri Rama Seeds
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#crops">Crops</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Mobile menu -->
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Mobile Sidenav
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#crops">Crops</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul> -->
+
+    <!-- Hero Section -->
+    <div class="hero-section green lighten-5" id="home">
+        <div class="container">
+            <div class="row center-align">
+                <div class="col s12">
+                    <h1 class="orange-text text-darken-3">Welcome to Sri Rama Seeds</h1>
+                    <h5 class="grey-text text-darken-2">Your Complete Guide to Quality Crop Cultivation</h5>
+                    <p class="grey-text">Access comprehensive manuals, cultivation guides, and expert recommendations for premium seeds.</p>
+                    <a href="#crops" class="btn-large orange darken-2 waves-effect waves-light">
+                        Explore Crop Manuals
+                        <i class="material-icons right">arrow_downward</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container" id="crops">
+        <div class="section">
+            <div class="row center-align">
+                <div class="col s12">
+                    <h3 class="orange-text text-darken-3">Crop Cultivation Manuals</h3>
+                    <p class="grey-text">Select a crop to access detailed cultivation guides, seed varieties, and farming schedules.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Crop Cards -->
+        <div class="row">
+            <!-- Cotton card -->
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image crop-image">
+                        <img src="assets/cottonCrop.jpg" alt="Cotton Crop" style="height: 250px; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title green-text text-darken-3">Cotton</span>
+                        <p>High-quality cotton seeds with comprehensive cultivation manuals and best practices.</p>
+                        <div class="chip green lighten-4">
+                            <i class="material-icons tiny">schedule</i>
+                            120-180 days
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="cotton.html" class="green-text text-darken-2">
+                            <i class="material-icons left tiny">menu_book</i>Open Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maize card -->
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image crop-image">
+                        <img src="assets/maizeCrop.jpg" alt="Maize Crop" style="height: 220px; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title orange-text text-darken-3">Maize</span>
+                        <p>Hybrid maize seed recommendations with detailed planting schedules and care instructions.</p>
+                        <div class="chip orange lighten-4">
+                            <i class="material-icons tiny">schedule</i>
+                            90-120 days
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="maize.html" class="orange-text text-darken-2">
+                            <i class="material-icons left tiny">menu_book</i>Open Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paddy card -->
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image crop-image">
+                        <img src="assets/paddyCrop.jpg" alt="Paddy Rice Crop" style="height: 200px; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title blue-text text-darken-2">Paddy Rice</span>
+                        <p>Premium rice varieties with water management techniques and yield optimization strategies.</p>
+                        <div class="chip blue lighten-4">
+                            <i class="material-icons tiny">schedule</i>
+                            110-140 days
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="paddy.html" class="blue-text text-darken-2">
+                            <i class="material-icons left tiny">menu_book</i>Open Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chilli card -->
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image crop-image">
+                        <img src="assets/chiliImage.jpg" alt="Chilli Crop" style="height: 180px; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title red-text text-darken-2">Chilli</span>
+                        <p>Hot and mild chilli varieties with pest management and harvesting guidelines.</p>
+                        <div class="chip red lighten-4">
+                            <i class="material-icons tiny">schedule</i>
+                            80-100 days
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="chilli.html" class="red-text text-darken-2">
+                            <i class="material-icons left tiny">menu_book</i>Open Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tomato card -->
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image crop-image">
+                        <img src="assets/tomatoCrop.jpeg" alt="Tomato Crop" style="height: 190px; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title deep-orange-text">Tomato</span>
+                        <p>Disease-resistant tomato varieties with greenhouse and field cultivation methods.</p>
+                        <div class="chip deep-orange lighten-4">
+                            <i class="material-icons tiny">schedule</i>
+                            70-90 days
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="tomato.html" class="deep-orange-text">
+                            <i class="material-icons left tiny">menu_book</i>Open Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wheat card -->
+            <div class="col s12 m6 l4">
+                <div class="card hoverable">
+                    <div class="card-image crop-image">
+                        <img src="assets/wheatCrop.webp" alt="Wheat Crop" style="height: 240px; width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title amber-text text-darken-3">Wheat</span>
+                        <p>High-yield wheat varieties with soil preparation and irrigation management guides.</p>
+                        <div class="chip amber lighten-4">
+                            <i class="material-icons tiny">schedule</i>
+                            120-150 days
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="wheat.html" class="amber-text text-darken-3">
+                            <i class="material-icons left tiny">menu_book</i>Open Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- About Section -->
+    <div id="about" class="section green lighten-5">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h4 class="orange-text text-darken-3">About Sri Rama Seeds</h4>
+                    <p class="grey-text text-darken-1">
+                        We are committed to providing farmers with premium quality seeds and comprehensive cultivation guidance. 
+                        Our expert-curated manuals help maximize crop yield while promoting sustainable farming practices.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 center-align">
+                    <i class="material-icons large orange-text">verified</i>
+                    <h6>Quality Assured</h6>
+                    <p>Premium seeds tested for quality and yield</p>
+                </div>
+                <div class="col s12 m4 center-align">
+                    <i class="material-icons large orange-text">support</i>
+                    <h6>Expert Support</h6>
+                    <p>Agricultural experts available for guidance</p>
+                </div>
+                <div class="col s12 m4 center-align">
+                    <i class="material-icons large orange-text">eco</i>
+                    <h6>Sustainable</h6>
+                    <p>Environmentally friendly farming practices</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer orange darken-2" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="white-text">Sri Rama Seeds</h5>
+                    <p class="grey-text text-lighten-4">
+                        Your trusted partner in sustainable agriculture and quality seed cultivation.
+                    </p>
+                </div>
+                <div class="col s12 m6">
+                    <h5 class="white-text">Contact Info</h5>
+                    <ul>
+                        <li><i class="material-icons left tiny">email</i>info@greenfieldsseeds.com</li>
+                        <li><i class="material-icons left tiny">phone</i>+1 (555) 123-4567</li>
+                        <li><i class="material-icons left tiny">location_on</i>123 Farm Road, Agriculture City</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="white-text">© 2025 Sri Rama Seeds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS + init -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
