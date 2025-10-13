@@ -169,6 +169,30 @@ main {
   }
 }
 
+/* Responsive tweaks for smaller screens */
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 2rem; /* Decreased font size for mobile view */
+  }
+  .hero-section h5 {
+    font-size: 1rem; /* Decreased font size for mobile view */
+  }
+
+  .section .card-panel {
+    padding: 0.5rem !important; /* Reduce padding */
+    background-size: contain !important; /* Adjust background image size */
+  }
+
+  .section .card-panel h4 {
+    font-size: 1.5rem !important; /* Smaller font size for header */
+    margin-bottom: 0.3rem !important; /* Adjust margin */
+  }
+
+  .section .card-panel p {
+    font-size: 0.75rem !important; /* Smaller font size for description */
+  }
+}
+
 /* Footer style */
 .page-footer {
   margin-top: 28px;
