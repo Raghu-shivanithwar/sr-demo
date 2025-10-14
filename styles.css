@@ -222,6 +222,15 @@ main {
   font-size: 0.85rem;
 }
 
+/* Reduce font sizes for ul, li, and table tr elements */
+ul, li {
+  font-size: 0.85rem; /* Adjusted font size */
+}
+
+table tr {
+  font-size: 0.85rem; /* Adjusted font size */
+}
+
 /* Responsive tweaks - mobile-first */
 /* For medium screens (tablet) we rely on Materialize grid */
 @media (min-width: 600px) {

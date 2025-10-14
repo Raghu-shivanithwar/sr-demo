@@ -24,246 +24,356 @@
    ------------------------- */
 const MANUALS = {
   cotton: {
-    en: {
-      title: 'COTTON — English',
-      content: `
+en: {
+  title: 'COTTON — English',
+  content: `
     <h6>Planting Instructions for Bollgard II & Bollworm Management</h6>
 
-    <p>Bollgard II cotton hybrids produce two Bt proteins, Cry1Ac and Cry2Ab, which together manage the key lepidopteran pests of cotton viz., American bollworm, Spotted bollworm, Pink bollworm, and the Tobacco caterpillar. As per the Gazette notification S.O.4215 (E) dated December 27, 2016, by the Ministry of Agriculture and Farmers Welfare, Government of India, the seeds in this packet are mixed with 5% Non-Bt refugia. This technology does not provide control of sucking insect pests of cotton.</p>
+    <p>Bollgard II cotton hybrids produce two Bt proteins, Cry1Ac and Cry2Ab, which together manage the key lepidopteran pests of cotton viz., American bollworm, Spotted bollworm, Pink bollworm and the Tobacco caterpillar. As per the Gazette notification S.O.4215 (E) dated December 27, 2016 by Ministry of Agriculture and Farmer's Welfare, Department of Agriculture, Cooperation and Farmer's Welfare, Government of India, the seeds in this packet are mixed with 5% Non-Bt refugia. This technology does not provide control of sucking insect pests of cotton.</p>
 
-    <h6>Refugia-in-Bag (RIB) Concept</h6>
-    <p>Blending 5% of Non-Bt seeds in the Bt cotton seed pouch is called the Refugia-in-Bag (RIB) concept. Non-Bt hybrids possess similar duration and fiber properties as Bt hybrids. Minimal yield loss is expected due to mixing of Non-Bt seeds; however, RIB helps delay insect resistance to Bt and enhances the durability of the technology.</p>
+    <h6>Refugia-in-Bag (RIB) Concept for Insect Resistance Management</h6>
+    <p>Blending 5% of Non-Bt seeds in Bt cotton seed pouch is called the Refugia-in-Bag (RIB) concept. Non-Bt hybrids possess similar duration and fiber properties as Bt hybrids. Minimal yield loss is expected due to mixing of Non-Bt seeds; however, RIB helps delay insect resistance to Bt and enhances the durability of the technology.</p>
 
-    <h6>General Guidelines</h6>
-    <p><strong>Land Preparation:</strong> Remove and burn debris of the previous crop. Give two deep summer ploughings and harrowing to prepare suitable tilth.</p>
-    <p><strong>Manures & Fertilizers:</strong> Apply 5–6 tonnes of farmyard manure 3–4 weeks before sowing. Use fertilizers as per soil test and local recommendations.</p>
-    <p><strong>Spacing:</strong> Follow spacing as per local recommendations.</p>
-    <p><strong>Sowing Method:</strong> Plant 2 seeds per hill. After germination, retain one healthy plant and remove the weaker one.</p>
-    <p<strong>Gap Filling:</strong> If required, do within a week to maintain plant population.</p>
-    <p><strong>Weed Control:</strong> Follow hand weeding and inter-cultivation. Use recommended herbicides if practiced locally.</p>
-    <p><strong>Irrigation:</strong> Maintain moisture during critical stages — germination, seedling, flowering, and boll formation. Avoid water stagnation.</p>
+    <p><strong>The following general guidelines can help to get maximum benefits from Bollgard II cultivation:</strong></p>
+
+    <p><strong>Land Preparation:</strong> Remove and burn debris of the previous crop for field sanitation. Give two deep summer ploughings to reduce soil-borne diseases, insects and weeds. Prepare the field by repeated harrowing to bring the soil to suitable tilth.</p>
+    <p><strong>Manures and Fertilizers:</strong> Apply 5–6 tonnes of farmyard manure 3–4 weeks before sowing.</p>
+    <p><strong>Fertilizers:</strong> Apply fertilizers as per the soil test report and local recommended practices.</p>
+    <p><strong>Spacing:</strong> Adopt spacing requirements as per local recommendations.</p>
+    <p><strong>Sowing Method:</strong> Plant 2 seeds per hill for maintaining proper population. After germination, retain one vigorous plant per hill and remove the weaker one.</p>
+    <p><strong>Gap Filling:</strong> To achieve optimum plant stand, perform gap filling within a week if necessary.</p>
+    <p><strong>Inter-Cultivation and Weed Control:</strong> Follow need-based hand weeding and inter-cultivation practices to control weeds, improve aeration, and conserve soil moisture. Follow recommended herbicide application, if practiced locally.</p>
+    <p><strong>Irrigation:</strong> Ensure moisture during critical growth stages — germination, seedling growth, flowering, and boll formation. Avoid water stagnation, as cotton is susceptible to prolonged waterlogging.</p>
+
     <h6>Integrated Pest Management (IPM)</h6>
-    <p>Follow summer ploughing and field sanitation.</p>
-    <p><strong>Seed Treatment:</strong> BG II cotton seeds are pre-treated for controlling sucking pests.</p>
-    <p><strong>Sucking Pest Control:</strong> Spray recommended insecticides when pest population crosses Economic Threshold Level (ETL).</p>
+    <p>The following integrated practices are recommended:</p>
+    <ol>
+      <li>Follow summer ploughing and field sanitation as mentioned earlier.</li>
+      <li><strong>Seed Treatment:</strong> BG II cotton seeds are pre-treated for controlling sucking pests.</li>
+      <li><strong>Sucking Pest Control:</strong> If infestation crosses the Economic Threshold Level (ETL) at any crop stage, spray recommended insecticides.</li>
+    </ol>
 
-    <h6>Economic Threshold Levels (ETL)</h6>
     <table border="1" cellspacing="0" cellpadding="4">
-      <tr><th>Pest</th><th>ETL</th></tr>
-      <tr><td>Jassids</td><td>1–2 nymphs or adults/leaf</td></tr>
-      <tr><td>Whiteflies</td><td>8–10 nymphs or adults/leaf</td></tr>
+      <tr><th>Pest</th><th>Economic Threshold Level (ETL)</th></tr>
+      <tr><td>Jassids</td><td>1–2 nymphs or adults per leaf</td></tr>
+      <tr><td>Whiteflies</td><td>8–10 nymphs or adults per leaf</td></tr>
       <tr><td>Aphids</td><td>10% plants infested</td></tr>
-      <tr><td>Thrips</td><td>10 nymphs or adults/leaf</td></tr>
-      <tr><td>Mites</td><td>10 adults or 20 nymphs/leaf</td></tr>
+      <tr><td>Thrips</td><td>10 nymphs or adults per leaf</td></tr>
+      <tr><td>Mites</td><td>10 adults or 20 nymphs per leaf</td></tr>
     </table>
 
     <h6>Bollworm Control</h6>
-    <p>Supplementary insecticide sprays may be needed if bollworm population reaches ETL. Scout fields weekly:</p>
-    <p><strong>American Bollworm (ABW):</strong> ETL = 2 or more larvae per 20 plants OR 10% boll damage on 20 plants.</p>
-    <p><strong>Pink Bollworm (PBW):</strong> ETL = 2 or more larvae in 20 flowers or bolls, or 8 moths/trap/night for 3 successive nights (3 traps/acre).</p>
-    <p>Follow local agricultural university or department insecticide recommendations.</p>
+    <p>Supplementary insecticide sprays may be needed to manage bollworms if their population reaches or exceeds ETL. To know if bollworms have reached ETL, scout Bollgard II fields weekly as follows:</p>
+    <ul>
+      <li><strong>American Bollworm (ABW):</strong> Randomly select 20 Bollgard II plants per acre. ETL is reached if 2 or more ABW larvae are found in 20 plants, or if 10% of total bolls are damaged by ABW.</li>
+      <li><strong>Pink Bollworm (PBW):</strong> Randomly select 20 flowers or mature bolls per acre. ETL is reached if 2 or more PBW larvae are found in 20 flowers or bolls. Alternatively, ETL is reached if pheromone traps (3 traps/acre) record an average of 8 PBW moths per trap per night for three successive nights.</li>
+    </ul>
+    <p>Follow insecticide recommendations from your local Agricultural University or Department of Agriculture.</p>
+
+    <p><strong>Note:</strong> For non-target insects like Spodoptera and Stem Weevil, follow local recommended practices.</p>
 
     <h6>Additional IPM Practices</h6>
-      <p>Use trap/barrier crops, pheromone or light traps, bird perches, natural enemies, and bio-rational insecticides (HaNPV, Neem).</p>
-      <p>Avoid repeated use of the same insecticide class.</li>
-      <p><strong>Timely crop termination:</strong> Avoid crop rejuvenation in high PBW areas to prevent pest carry-over.</li>
-      <p><strong>Field sanitation:</strong> Remove unopened bolls and bury in deep pits.</li>
-      <p><strong>Deep ploughing:</strong> After harvest, expose and kill bollworm pupae and PBW larvae.</li>
+    <ul>
+      <li>Use trap/barrier crops, pheromone or light traps, bird perches, natural enemies, and bio-rational insecticides (HaNPV, Neem).</li>
+      <li>Avoid repeated use of the same class of insecticides.</li>
+      <li><strong>Timely Crop Termination:</strong> Avoid rejuvenation (re-flushing) of Bollgard II crop in areas with high PBW incidence.</li>
+      <li><strong>Field Sanitation:</strong> Remove unopened or damaged bolls and bury them in deep pits.</li>
+      <li><strong>Deep Ploughing:</strong> After harvest, deep plough to expose and kill pupae and diapausing PBW larvae.</li>
+    </ul>
 
     <h6>Management of Common Diseases in Cotton</h6>
-    <p>Follow recommended practices for Alternaria leaf spot, Grey mildew, Leaf blight, and Boll rot.</p>
+    <p>Follow need-based recommended practices for controlling diseases such as Alternaria leaf spot, Grey mildew, Leaf blight, and Boll rot. Common diseases include:</p>
 
-    <h6>Major Diseases and Symptoms</h6>
     <ul>
-      <p><strong>Alternaria Leaf Blight (Alternaria macrospora):</strong> Pale brown circular spots with concentric ridges — target board pattern.</p>
-      <p><strong>Cercospora Leaf Spot (Cercospora gossypina):</strong> Reddish dots expanding into white/light brown spots with red margin.</p>
-      <p><strong>Grey Mildew (Ramularia areola):</strong> Yellowish-green angular spots turning brown; whitish fungal growth below leaves.</p>
-      <p><strong>Bacterial Blight (Xanthomonas campestris pv. malvacearum):</strong> Angular spots on leaves, black veins, blight on stems and bolls.</p>
+      <li><strong>Alternaria Leaf Blight (Alternaria macrospora):</strong> Small pale brown circular spots with concentric ridges (target board appearance).</li>
+      <li><strong>Cercospora Leaf Spot (Cercospora gossypina):</strong> Reddish dots expanding into white/light brown spots with red margins.</li>
+      <li><strong>Grey Mildew (Ramularia areola):</strong> Yellowish-green angular spots turning brown with whitish fungal growth below leaves.</li>
+      <li><strong>Bacterial Blight (Xanthomonas campestris pv. malvacearum):</strong> Angular spots, vein blight, black arm on stems, and boll blight.</li>
     </ul>
 
     <h6>Disease Management</h6>
     <ul>
-      <p>Ensure adequate nutrition and proper water management.</p>
-      <p>Apply sufficient FYM and maintain proper spacing to reduce humidity.</p>
-      <p>Remove and destroy infected leaves.</p>
-      <p>Spray with Copper oxychloride or Wettable sulfur (2–2.5 g) + Bavistin (1–1.5 g)/L for fungal spots.</p>
-      <p>For bacterial blight: Copper oxychloride (2–2.5 g) + Streptocycline (0.1 g)/L.</p>
-      <p>Repeat sprays 2–3 times at 15–20 day intervals after first symptom appearance.</p>
+      <li>Maintain adequate nutrition and proper water management.</li>
+      <li>Encourage sufficient FYM application.</li>
+      <li>Adopt wider spacing or paired-row planting to reduce canopy humidity.</li>
+      <li>Remove and destroy infected leaves to minimize spread.</li>
+      <li>Spray Copper oxychloride or Wettable sulfur (2–2.5 g) + Bavistin (1–1.5 g)/L for fungal spots.</li>
+      <li>For bacterial blight: Copper oxychloride (2–2.5 g) + Streptocycline (0.1 g)/L.</li>
+      <li>For combined fungal and bacterial infections: Copper oxychloride (2–2.5 g) + Bavistin (1–1.5 g) + Streptocycline (0.1 g)/L.</li>
+      <li>Repeat sprays 2–3 times at 15–20 day intervals after symptom appearance.</li>
     </ul>
 
     <h6>Management Strategies for Wilt in Cotton</h6>
-    <p>Wilt is severe in light to medium soils under water stress. Pathogens include <em>Fusarium oxysporum</em>, <em>Rhizoctonia solani</em>, and <em>Rhizoctonia bataticola</em>.</p>
+    <p>Wilt is severe in light to medium soils under water stress. Major pathogens include <em>Fusarium oxysporum</em>, <em>Rhizoctonia solani</em>, and <em>Rhizoctonia bataticola</em>.</p>
 
     <h6>Symptoms</h6>
-    <p>Wilting at flowering to boll-setting stage, yellowing leaves, dull plants, vascular discoloration, and root rot.</p>
+    <p>Wilting during flowering to boll setting, dull plants, yellow leaves, vascular discoloration, and root rot. In waterlogged conditions, wilt may appear suddenly—drain water immediately and drench with systemic fungicides.</p>
 
     <h6>Management</h6>
     <ul>
-      <p>Timely irrigation in light soils.</p>
-      <p>Avoid fields with wilt history.</p>
-      <p>Apply sufficient FYM.</p>
-      <p>Spray Nitrophoska-Foliar @ 3 g/L at vegetative stage, and Nitrophoska-Foliar @ 3 g/L + Planofix @ 0.3 ml/L at flowering.</p>
-      <p>Soil drench with Bavistin (Carbendazim) + Contaf (Hexaconazole) or Sheathmar (Validamycin) @ 3 g/L (0.5–1 L/plant) at 50–60 DAS.</li>
+      <li>Timely irrigation, especially in light soils.</li>
+      <li>Avoid fields with a history of wilt.</li>
+      <li>Apply adequate FYM.</li>
+      <li>Spray Nitrophoska-Foliar @ 3 g/L at vegetative stage and Nitrophoska-Foliar @ 3 g/L + Planofix @ 0.3 ml/L at flowering.</li>
+      <li>Soil drench with Bavistin (Carbendazim) + Contaf (Hexaconazole) or Sheathmar (Validamycin) @ 3 g/L (0.5–1 L/plant) at 50–60 DAS.</li>
     </ul>
 
     <h6>Harvesting</h6>
     <p>Harvest Bollgard II cotton as per normal harvesting practices.</p>
 
     <h6>Disclaimer</h6>
-    <p>The guidelines are compiled from various sources. Soil, climate, and management differences may affect yield. Farmers are responsible for production outcomes. For best results, follow proper crop management and sowing practices. The company is not liable for crop failure despite following these guidelines.</p>
+    <p>The guidelines in this leaflet are compiled from various sources. Soil type, adverse climatic conditions, poor management, or pest and disease attack may reduce yield. Farmers are responsible for production outcomes. For best results, follow proper sowing and crop management practices. The company is not liable for crop failure despite following these guidelines.</p>
 
     <h6>Stewardship Guidance</h6>
-    <p>Performance of Bollgard II cotton depends on adherence to official crop management guidelines. Non-compliance or high bollworm pressure (e.g., PBW resistance) requires ETL-based pest management. The licensor is not liable for performance issues arising from non-adherence or germplasm-related factors.</p>
+    <p>The performance of Bollgard II cotton technology depends on adherence to official product usage guidelines recommended by Central and/or State Agricultural Institutes. Non-adherence can lead to suboptimal results. High bollworm incidence, including PBW resistance, may require ETL-based pest management. The licensor of this technology is not liable for any performance issues arising from failure to follow guidelines or from germplasm-related factors.</p>
   `
-    },
+},
 
-    hi: {
-      title: 'COTTON — हिन्दी',
-      content: `
-    <h6>बोलगार्ड II और बोलवर्म प्रबंधन के लिए रोपण निर्देश</h6>
-    <p>बोलगार्ड कॉटन सादी बीटी प्रोटीन काम पुसी और कल एबी कर उत्पन्न करते हैं जो कपास के विशिष्ट कीटों का प्रबंधन करते हैं — अमेरिकन बॉलवर्म और टोबैको कैटरपिलर। गैजेट नोटिफिकेशन S.O. 4215(E) के अनुसार 27 दिसंबर 2016 को कृषि और किसान कल्याण मंत्रालय, कृषि विभाग, सहकारिता पूर्व किसान कल्याण विभाग, भारत सरकार द्वारा इस पैकेट के बीज को 5% गैर-बीटी रिफ्यूजिया के साथ मिलाया जाता है। यह तकनीक रस चूसने वाले कीटों पर नियंत्रण प्रदान नहीं करती है। कीट प्रतिरोध प्रबंधन के लिए रिफ्यूजिया इन बैग (RIB) अवधारणा को कहा जाता है। बीटी हाइब्रिड के समान अवधि और फाइबर गुण होते हैं। गैर-बीटी बीज के मिश्रण के कारण न्यूनतम उपज हानि होती है और यह तकनीक की स्थायित्व में मदद करती है।</p>
+hi: {
+  title: 'COTTON — हिन्दी',
+  content: `
+<p>बोलगार्ड II और बोलवर्म प्रबंधन के लिए रोपण निर्देश</p>
+<p>बोलगार्ड कॉटन सादी बीटी प्रोटीन काम पुसी और कल एबी कर उत्पन्न करते हैं जो कपास के विशिष्ट कीटों का प्रबंधन करते हैं — अमेरिकन बॉलवर्म और टोबैको कैटरपिलर। गैजेट नोटिफिकेशन S.O. 4215(E) के अनुसार 27 दिसंबर 2016 को कृषि और किसान कल्याण मंत्रालय, कृषि विभाग, सहकारिता पूर्व किसान कल्याण विभाग, भारत सरकार द्वारा इस पैकेट के बीज को 5% गैर-बीटी रिफ्यूजिया के साथ मिलाया जाता है। यह तकनीक रस चूसने वाले कीटों पर नियंत्रण प्रदान नहीं करती है। कीट प्रतिरोध प्रबंधन के लिए रिफ्यूजिया इन बैग (RIB) अवधारणा को कहा जाता है। बीटी हाइब्रिड के समान अवधि और फाइबर गुण होते हैं। गैर-बीटी बीज के मिश्रण के कारण न्यूनतम उपज हानि होती है और यह तकनीक की स्थायित्व में मदद करती है।</p>
 
-    <h6>भूमि की तैयारी</h6>
-    <p>फील्ड सैनिटेशन के लिए पिछली फसल का मलबा निकालें और जलाएं। मृदा जनित रोगों, कीटों और खरपतवारों को कम करने के लिए गर्मी में दो गहरी जुताई करें तथा मिट्टी को उपयुक्त टिल्थ में लाने के लिए बार-बार जुताई करें।</p>
+<p><strong>भूमि की तैयारी:</strong> फील्ड सैनिटेशन के लिए पिछली फसल का मलबा निकालें और जलाएं। मृदा जनित रोगों, कीटों और खरपतवारों को कम करने के लिए गर्मी में दो गहरी जुताई करें तथा मिट्टी को उपयुक्त टिल्थ में लाने के लिए बार-बार जुताई करें।</p>
 
-    <h6>खाद और उर्वरक</h6>
-    <p>बुआई के 3–4 सप्ताह पूर्व 5–6 टन एफवायएम (गोबर की खाद) डालें। उर्वरक मृदा परीक्षण रिपोर्ट और स्थानीय सिफारिशों के अनुसार उपयोग करें।</p>
+<p><strong>खाद और उर्वरक:</strong> बुआई के 3–4 सप्ताह पूर्व 5–6 टन एफवायएम (गोबर की खाद) डालें। उर्वरक मृदा परीक्षण रिपोर्ट और स्थानीय सिफारिशों के अनुसार उपयोग करें।</p>
 
-    <h6>पौधों की दूरी और बुवाई</h6>
-    <p>स्थानीय अनुशंसा के अनुसार पौधों की दूरी अपनाएं। प्रत्येक स्थान पर 2 बीज लगाएं और अंकुरण के बाद प्रति स्थान केवल एक स्वस्थ पौधा रखें।</p>
+<p><strong>पौधों की दूरी और बुवाई:</strong> स्थानीय अनुशंसा के अनुसार पौधों की दूरी अपनाएं। प्रत्येक स्थान पर 2 बीज लगाएं और अंकुरण के बाद प्रति स्थान केवल एक स्वस्थ पौधा रखें।</p>
 
-    <h6>गैप फिलिंग</h6>
-    <p>एक सप्ताह के भीतर आवश्यकतानुसार गैप फिलिंग करें ताकि पौधों की समान संख्या बनी रहे। निराई-गुड़ाई नियमित करें और आवश्यकतानुसार अनुशंसित खरपतवारनाशी का उपयोग करें।</p>
+<p><strong>गैप फिलिंग:</strong> एक सप्ताह के भीतर आवश्यकतानुसार गैप फिलिंग करें ताकि पौधों की समान संख्या बनी रहे। निराई-गुड़ाई नियमित करें और आवश्यकतानुसार अनुशंसित खरपतवारनाशी का उपयोग करें।</p>
 
-    <h6>सिंचाई</h6>
-    <p>पौधे के विकास के महत्वपूर्ण चरणों — अंकुरण, फूल आने और बॉल बनने के समय — नमी की उपलब्धता सुनिश्चित करें। जलभराव से बचें।</p>
+<p><strong>सिंचाई:</strong> पौधे के विकास के महत्वपूर्ण चरणों — अंकुरण, फूल आने और बॉल बनने के समय — नमी की उपलब्धता सुनिश्चित करें। जलभराव से बचें।</p>
 
-    <h6>एकीकृत कीट प्रबंधन (IPM)</h6>
-    <p>ध्यानपूर्वक फसल की निगरानी करें, खेत की स्वच्छता रखें और आवश्यकतानुसार कीटनाशकों का प्रयोग करें।</p>
+<p><strong>एकीकृत कीट प्रबंधन (IPM):</strong> निम्नलिखित समेकित पद्धतियाँ अपनाएँ —</p>
+<ul>
+  <li>खेत की स्वच्छता बनाए रखें और समय पर जुताई करें।</li>
+  <li>रस चूसने वाले कीटों के नियंत्रण हेतु बीजोपचार करें।</li>
+  <li>यदि कीटों की संख्या आर्थिक सीमा स्तर (ETL) से अधिक हो जाए तो अनुशंसित कीटनाशक का प्रयोग करें।</li>
+</ul>
 
-    <h6>आर्थिक सीमा स्तर (ETL)</h6>
-    <table border="1" cellspacing="0" cellpadding="4">
-      <tr><th>कीट</th><th>ETL</th></tr>
-      <tr><td>थ्रिप्स</td><td>1–2 निम्फ/वयस्क प्रति पत्ती</td></tr>
-      <tr><td>सफेद मक्खी</td><td>6–10 निम्फ/वयस्क प्रति पत्ती</td></tr>
-      <tr><td>जैसिड</td><td>10% पौधे संक्रमित</td></tr>
-      <tr><td>मिली बग</td><td>10 कीट प्रति पत्ती</td></tr>
-    </table>
+<p><strong>मुख्य कीट और आर्थिक सीमा स्तर (ETL):</strong></p>
+<ul>
+  <li>थ्रिप्स: 1–2 निम्फ/वयस्क प्रति पत्ती</li>
+  <li>सफेद मक्खी: 6–10 निम्फ/वयस्क प्रति पत्ती</li>
+  <li>जैसिड: 10% पौधे संक्रमित</li>
+  <li>मिली बग: 10 कीट प्रति पत्ती</li>
+</ul>
 
-    <h6>बोलवर्म नियंत्रण</h6>
-    <p>यदि उनकी संख्या आर्थिक सीमा स्तर (ETL) से अधिक हो जाती है, तो कीटनाशक स्प्रे आवश्यक है।</p>
-    
-      <p>अमेरिकन बॉलवर्म (ABW): 20 पौधों में 2 या अधिक लार्वा, या 10% बॉल क्षति पर स्प्रे करें।</p>
-      <p>गुलाबी बॉलवर्म (PBW): 20 फूलों या बॉलों में 2 या अधिक लार्वा पाए जाने पर नियंत्रण करें।</p>
+<p><strong>बोलवर्म नियंत्रण:</strong> यदि संख्या ETL से अधिक हो जाए तो कीटनाशक स्प्रे करें।</p>
+<ul>
+  <li>अमेरिकन बॉलवर्म (ABW): 20 पौधों में 2 या अधिक लार्वा या 10% बॉल क्षति पर स्प्रे करें।</li>
+  <li>गुलाबी बॉलवर्म (PBW): 20 फूलों या बॉलों में 2 या अधिक लार्वा पाए जाने पर नियंत्रण करें।</li>
+</ul>
 
+<p>आर्थिक सीमा स्तर का निर्धारण फेरोमोन ट्रैप से भी किया जा सकता है। यदि प्रति ट्रैप औसतन 8 या अधिक पतंगे लगातार 3 रातों तक मिलें तो यह संकेत है कि ETL पार हो चुका है।</p>
 
-    <h6>अनुशंसित IPM प्रथाएं</h6>
-    
-      <p>फेरोमोन ट्रैप, प्रकाश ट्रैप और पक्षी बासों का उपयोग करें।</p>
-      <p>नीम आधारित जैविक कीटनाशकों (जैसे HNPV, नीम तेल) का प्रयोग करें।</p>
-      <p>एक ही वर्ग के कीटनाशक को बार-बार उपयोग न करें।</p>
-      <p>समय पर फसल समाप्त करें और खेत की सफाई रखें।</p>
+<p>अपने स्थानीय कृषि विश्वविद्यालय या कृषि विभाग के कीटनाशक सिफारिशों का पालन करें। अन्य गैर-लक्षित कीटों जैसे स्पोडोप्टेरा, स्टेम बोरर आदि के लिए भी अनुशंसित रसायनों का उपयोग करें।</p>
 
+<p><strong>अनुशंसित IPM प्रथाएं:</strong></p>
+<ul>
+  <li>फेरोमोन ट्रैप, लाइट ट्रैप और पक्षी बासों का उपयोग करें।</li>
+  <li>नीम आधारित जैविक कीटनाशकों (जैसे HNPV, नीम तेल) का प्रयोग करें।</li>
+  <li>एक ही वर्ग के कीटनाशकों का बार-बार उपयोग न करें।</li>
+  <li>फसल की समय पर कटाई करें और खेत की सफाई बनाए रखें।</li>
+</ul>
 
-    <h6>सामान्य रोग प्रबंधन</h6>
-    <p>अल्टरनेरिया लीफ स्पॉट, ग्रे मिल्ड्यू, लीफ ब्लाइट और बॉल रॉट के लिए आवश्यकतानुसार फफूंदनाशी स्प्रे करें।</p>
+<p><strong>सामान्य रोग प्रबंधन:</strong> कपास में प्रमुख पत्तीय रोग जैसे अल्टरनेरिया लीफ स्पॉट, ग्रे मिल्ड्यू, लीफ ब्लाइट और बॉल रॉट के लिए आवश्यकतानुसार फफूंदनाशी स्प्रे करें।</p>
 
-    <h6>मुख्य रोग और उनके लक्षण</h6>
-    
-      <strong>अल्टरनेरिया लीफ ब्लाइट:</strong> पत्तियों पर छोटे पीले-भूरे गोल धब्बे जो बाद में लक्ष्य बोर्ड की तरह दिखते हैं।</p>
-      <strong>सर्कोस्पोरा लीफ स्पॉट:</strong> लाल किनारों वाले भूरे धब्बे जो धीरे-धीरे बढ़ते हैं।</p>
-      <strong>ग्रे मिल्ड्यू:</strong> पत्तियों पर सफेद कवक की परत; नीचे की सतह पर स्पष्ट।</p>
-      <strong>बैक्टीरियल ब्लाइट:</strong> पत्तियों और तनों पर कोणीय काले धब्बे, बॉल पर गहरे भूरे धब्बे।</p>
+<p><strong>मुख्य रोग और उनके लक्षण:</strong></p>
+<ul>
+  <li><strong>अल्टरनेरिया लीफ स्पॉट:</strong> पत्तियों पर पीले-भूरे गोल धब्बे जो बाद में लक्ष्य बोर्ड जैसे दिखते हैं।</li>
+  <li><strong>सर्कोस्पोरा लीफ स्पॉट:</strong> लाल किनारों वाले भूरे धब्बे जो धीरे-धीरे बढ़ते हैं।</li>
+  <li><strong>ग्रे मिल्ड्यू:</strong> पत्तियों की निचली सतह पर सफेद कवक की परत।</li>
+  <li><strong>बैक्टीरियल ब्लाइट:</strong> पत्तियों और तनों पर कोणीय काले धब्बे; बॉल पर भूरे धब्बे।</li>
+</ul>
 
+<p><strong>रोग नियंत्रण उपाय:</strong></p>
+<ul>
+  <li>पर्याप्त पोषण और सही सिंचाई बनाए रखें।</li>
+  <li>संक्रमित पत्तियाँ हटा दें।</li>
+  <li>कॉपर ऑक्सी क्लोराइड (2–2.5 g/L) + बाविस्टिन (1–1.5 g/L) का छिड़काव करें।</li>
+  <li>बैक्टीरियल ब्लाइट के लिए स्ट्रेप्टोसाइक्लिन (0.1 g/L) के साथ कॉपर ऑक्सी क्लोराइड मिलाएँ।</li>
+  <li>लक्षण आने के बाद 15–20 दिन के अंतराल पर 2–3 बार स्प्रे करें।</li>
+</ul>
 
-    <h6>रोग नियंत्रण उपाय</h6>
-    
-      <p>पर्याप्त पोषण और सही सिंचाई बनाए रखें।</p>
-      <p>संक्रमित पत्तियों को हटा दें।</p>
-      <p>कॉपर ऑक्सी क्लोराइड (2–2.5 g/L) + बाविस्टिन (1–1.5 g/L) का छिड़काव करें।</p>
-      <p>बैक्टीरियल ब्लाइट के लिए स्ट्रेप्टोसाइक्लिन (0.1 g/L) के साथ कॉपर ऑक्सी क्लोराइड मिलाएं।</p>
-      <p>लक्षण आने के बाद 15–20 दिन के अंतराल पर 2–3 बार स्प्रे दोहराएं।</p>
+<p><strong>विल्ट रोग प्रबंधन:</strong> यह रोग जल तनाव की स्थिति में हल्की से मध्यम मिट्टी में गंभीर होता है। फ्यूजेरियम और राइज़ोक्टोनिया इसके प्रमुख रोगजनक हैं।</p>
+<ul>
+  <li>समय पर सिंचाई करें और जलभराव से बचें।</li>
+  <li>अधिक FYM डालें।</li>
+  <li>50–60 DAS पर बाविस्टिन + कंटाफ (3 g/L) का 0.5–1 L/पौधा ड्रेंच करें।</li>
+  <li>फूल आने पर नाइट्रोफॉस्का (3 g/L) + प्लानोफिक्स (0.3 ml/L) का छिड़काव करें।</li>
+</ul>
 
+<p><strong>कटाई:</strong> बोलगार्ड II कपास की कटाई सामान्य मानकों के अनुसार करें।</p>
 
-    <h6>विल्ट रोग प्रबंधन</h6>
-    <p>यह रोग जल तनाव की स्थिति में हल्की से मध्यम मिट्टी में गंभीर होता है। फ्यूजेरियम और राइज़ोक्टोनिया रोगजनक इसका कारण हैं।</p>
-    
-      <p>समय पर सिंचाई करें और जलभराव से बचें।</p>
-      <p>अधिक FYM डालें।</p>
-      <p>नाइट्रोफॉस्का (3 g/L) का छिड़काव करें, फूल आने पर प्लानोफिक्स (0.3 ml/L) मिलाएं।</p>
-      <p>50–60 DAS पर बाविस्टिन + कंटाफ (3 g/L) का 0.5–1 L/पौधा ड्रेंच करें।</p>
+<p><strong>अस्वीकरण:</strong> यह जानकारी विभिन्न कृषि प्रकाशनों से संकलित है। उत्पादन मिट्टी के प्रकार, मौसम, प्रबंधन और रोग-कीट प्रकोप पर निर्भर करता है। कंपनी उत्पादन हानि के लिए जिम्मेदार नहीं होगी।</p>
 
-    <h6>कटाई</h6>
-    <p>बोलगार्ड II कपास की कटाई सामान्य मानकों के अनुसार करें।</p>
-
-    <h6>अस्वीकरण</h6>
-    <p>ये दिशानिर्देश विभिन्न स्रोतों से संकलित हैं। मिट्टी, जलवायु और प्रबंधन में भिन्नता उपज को प्रभावित कर सकती है। किसानों को अनुशंसित फसल प्रबंधन का पालन करना चाहिए। कंपनी फसल हानि के लिए उत्तरदायी नहीं होगी।</p>
-
-    <h6>स्टूअर्डशिप मार्गदर्शन</h6>
-    <p>बोलगार्ड II कपास का प्रदर्शन आधिकारिक प्रबंधन दिशानिर्देशों के पालन पर निर्भर करता है। यदि किसान ETL आधारित नियंत्रण या अनुशंसित प्रथाओं का पालन नहीं करते हैं, तो कंपनी जिम्मेदार नहीं होगी।</p>
-  `
-    },
+<p><strong>स्टूअर्डशिप मार्गदर्शन:</strong> बोलगार्ड II कपास का प्रदर्शन आधिकारिक प्रबंधन दिशानिर्देशों के पालन पर निर्भर करता है। यदि किसान ETL आधारित नियंत्रण या अनुशंसित प्रथाओं का पालन नहीं करते हैं, तो कंपनी जिम्मेदार नहीं होगी।</p>
+`
+},
 
 te: {
   title: 'COTTON — తెలుగు',
   content: `
-<p>బోల్డార్డ్ II మరియు బోల్‌వార్మ్ నియంత్రణ కొరకు సాగు సూచనలు</p>
-<p>బోల్డార్డ్ II కాటన్ హైబ్రిడ్ రెండు బిటి ప్రోటీన్లను ఉత్పత్తి చేస్తాయి. అవి, Cry1Ac మరియు Cry2Ab, పత్తి ని ఆశించే కీలకమైన కాయతోలుచు పురుగులను నియంత్రిస్తాయి. భారత ప్రభుత్వం డిసెంబర్ 27, 2016 నాటి గెజిట్ నోటిఫికేషన్, S.O.4215 (E) ప్రకారం, ఈ ప్యాకెట్లోని విత్తనాలకు 5% నాన్-బిటి రెఫ్యూజియా విత్తనాలు కలపబడ్డాయి. ఈ సాంకేతికత పత్తి యొక్క రసం పీల్చే కీటాకాలను నియంత్రించదు.</p>
-<p>ఫ్యూజియా-ఇన్-బాగ్ (RIB) పద్ధతి: బిటి కాటన్ సీడ్ బ్యాగ్ లో 5% నాన్ బిటి విత్తనాలను కలపడాన్ని రెఫ్యూజియా-ఇన్-బాగ్ (RIB) పద్ధతి అంటారు. నాన్ బిటి హైబ్రీడ్, బిటి హైబ్రిడ్ మాదిరిగానే కాలవ్యవధి మరియు ఫైబర్ లక్షణాలను కలిగి ఉంటుంది. నాన్ బిటి విత్తనాలను కలపడం వల్ల పత్తి దిగుబడి తగ్గదు. అయితే, పత్తి కి ఆశించే కీలకమైన కాయతోలుచు పురుగులలో బిటి నిరోధక శక్తి అభివృద్ధి కాకుండా RIB సహాయపడుతుంది మరియు బిటి సాంకేతికత యొక్క మన్నికను పెంచుతుంది.</p>
-<p>బోర్డ్ II సాగు నుండి గరిష్ట దిగుబడి పొందడానికి సాధారణ మార్గదర్శకాలు:</p>
-<p>పొలం తయారు చేసుకొను విధానం: మునుపటి పంట యొక్క మొక్కలను, కాండములను తొలగించి కాల్చివేయవలెను. వేసవి లో పొలాన్ని బాగా లోతుగా దున్నాలి. దీనివల్ల నేలలో పుట్టే తెగుళ్లను, చీడ పీడలను మరియు కలుపు మొక్కలను ఆరికట్టవచ్చు. విత్తనాలు విత్తడానికి ముందు నేలను బాగా దున్ని చదును చేసుకోవాలి.</p>
-<p>జీవ సంభంధ మరియు రసాయన ఎరువులు: విత్తడానికి 3 నుండి 4 వారాల ముందు 5 నుండి 6 టన్నుల పశువుల ఎరువు (కంపోస్ట్) ను వేసుకోవాలి. రసాయన ఎరువులు భూసార పరీక్ష ఆధారంగా మరియు సిఫార్సు చేసిన పద్ధతుల ప్రకారం వేయండి.</p>
+<p>బోల్డార్డ్ II" మరియు బోల్వార్మ్ నియంత్రణ కొరకు సాగు సూచనలు</p>
+<p>బోల్డార్డ్ II° కాటన్ హైబ్రిడ్ రెండు బిటి ప్రోటీన్లను ఉత్పత్తి చేస్తాయి. అవి, Cry1Ac మరియు Cry2Ab, పత్తి ని ఆశించే కీలకమైన కాయతొలుచు పురుగులను నియంత్రిస్తాయి. భారత ప్రభుత్వం డిసెంబర్ 27,2016 నాటి గెజిట్ నోటిఫికేషన్, S.O.4215 (E) ప్రకారం, ఈ ప్యాకెట్లోని విత్తనాలకు 5% నాన్-బిటీ రెఫ్యూజియా విత్తనాలు కలపబడ్డాయి. ఈ సాంకేతికత పత్తి యొక్క రసం పీల్చే కీటాకాలను నియంత్రించదు.</p>
+
+<p>ఫ్యూజియా-ఇన్-బాగ్ (RIB) పద్ధతి: బిటి కాటన్ సీడ్ బ్యాగ్ లో 5% నాన్ బిటి విత్తనాలను కలపడాన్ని రెఫ్యూజియా-ఇన్-బాగ్ (RIB) పద్ధతి అంటారు. నాన్ బిటి హైబ్రీడ్, బిటి హైబ్రిడ్ మాదిరిగానే కాలవ్యవధి మరియు ఫైబర్ లక్షణాలను కలిగి ఉంటుంది. నాన్ బిటి విత్తనాలను కలపడం వల్ల పత్తి దిగుబడి తగ్గదు. అయితే పత్తి ని ఆశించే కీలకమైన కాయతోలుచు పురుగులలో బిటి నిరోధక శక్తి అభివృద్ధి కాకుండా RIB సహాయపడుతుంది మరియు బిటి సాంకేతికత యొక్క మన్నికను పెంచుతుంది.</p>
+
+<p>బోర్డ్ II సాగు నుండి గరిష్ట దిగుబడి పొందడానికి సాధారణ మార్గదర్శకాలు</p>
+<p>పొలం తయారు చేసుకొను విధానం : మునుపటి పంట యొక్క ఎం డిన మొక్కలను కాండములను తొలగించి కాల్చివేయవలెను. వేసవి లో పొలాన్ని బాగా లోతుగా దున్నాలి. దీనివల్ల నేలలో పుట్టే తెగుళ్లను, చీడ పీడలను మరియు నెలను బావదున్నే కలుపుమొక్కల్ని ఆరికట్టవచ్చు. విత్తనాలు విత్తడానికి ముందు నేలను బాగా దున్ని చదును చేసుకోవాలి.</p>
+
+<p>జీవ సంభంధ మరియు రసాయన ఎరువులు : విత్తడానికి 3 నుండి 4 వారాల ముందు 5 నుండి 6 టన్నుల పశువుల ఎరువు (కంపోస్ట్) ను వేసుకోవాలి.</p>
+<p>రసాయన ఎరువులు: భూసార పరీక్ష ఆధారంగా మరియు సిఫార్సు చేసిన పద్ధతుల ప్రకారం ఎరువులు వేయండి.</p>
+
 <p>మొక్కల మధ్య నిడివి (spacing): స్థానికంగా సిఫార్సు చేసిన పద్ధతుల ప్రకారం మొక్కల మధ్య నిడివి పాటించాలి.</p>
+
 <p>విత్తనాలు నాటే పద్దతి: సరైన మొక్కల సంఖ్య ఉండడానికి ప్రతి చోట 2 విత్తనాలు నాటండి. విత్తనాలు మొలకెత్తిన తరువాత, బాగుగా ఉన్న మొక్కని ఉంచి, బలహీనంగా ఉన్న మొక్కను తీసివేయవలెను.</p>
-<p>మొక్కల మధ్య ఖాళీని భర్తీచేయుట (fallback): అవసరమైతే ఒక వారం వ్యవధిలో పడు పాదులు వేసుకొని మొక్కల మధ్య ఖాళీని భర్తీ చేసుకోవాలి.</p>
-<p>అంతర సేద్యం మరియు కలుపు నియంత్రణ: కలుపు మొక్కల పెరుగుదలను నియంత్రించడానికి కలుపు తీయుట మరియు అంతర సాగు పద్దతులను అనుసరించండి. ఇది నేలలో తేమను ఉంచడానికి సహాయపడుతుంది. అవసరమైతే సిఫార్సు చేసిన కలుపు మందును పిచికారి చేయవచ్చు.</p>
-<p>నీటిపారుదల: పంట యొక్క ముఖ్యమైన దశల్లో (మొలకెత్తడం, మొలక పెరుగుదల, మొగ్గ తొడిగే దశ, కాయ ఏర్పడే దశ మరియు అభివృద్ధి దశ) నీటి కొరత లేకుండా చూసుకోవాలి, మరియు పొలంలో ఎక్కువ నీరు నిల్వ కాకుండా చూసుకోవాలి.</p>
-<p>సమగ్ర సశ్య రక్షణ:</p>
-<p>1. వేసవిలో లోతుగా దున్నుట మరియు పొలం శుభ్రంగా ఉంచడం.</p>
-<p>2. విత్తన శుద్ధి: రసంపీల్చే పురుగులను నివారించడానికి బిటి పత్తి విత్తనాలను ముందే శుద్ధి చేయండి.</p>
-<p>3. రసంపీల్చే పురుగుల నివారణ: పంట ఏ దశలోనైనా రసం పీల్చుకునే పురుగుల ప్రమాదకర స్థాయి (ETL) దాటితే, నియంత్రణ కోసం సిఫార్సు చేసిన పురుగుమందులను పిచికారి చేయండి.</p>
-<p>పురుగు – ప్రమాదకర స్థాయి (ETL):</p>
-<p>పచ్చదోమ: ఒక ఆకుకి 1-2 లార్వాలు లేదా రెక్కల పురుగులు</p>
-<p>తెల్లదోమ: ఒక ఆకుకు 8-10 లార్వాలు లేదా రెక్కల పురుగులు</p>
-<p>పేనుబంక: 10% సోకిన మొక్కలు</p>
-<p>తామర పురుగు: ఒక ఆకుకి 10 లార్వాలు లేదా 20 లార్వాలు లేదా 10 రెక్కల పురుగులు</p>
-<p>4. బోల్వార్మ్ (కాయ తొలుచు) నివారణ: పురుగుల ఉధృతి ETL ఆధారిత ప్రమాదకర స్థాయికి చేరితే, పురుగుమందుల స్ప్రేయింగ్ అవసరం కావచ్చు. స్థానిక వ్యవసాయ విశ్వవిద్యాలయం లేదా వ్యవసాయ శాఖ సిఫార్సు చేసిన మందులను వాడండి.</p>
-<p>5. ఇతర పద్ధతులు: లింగాకర్షక బుట్టలు, లైట్ ట్రాప్స్ / అవరోధ పంటలు, పక్షి స్టాండ్లు, సహజ శత్రువుల వాడకం, బయో పురుగుమందులు (Ha NPV, Neem) మొదలైన సమగ్ర పద్ధతులను అనుసరించవచ్చు.</p>
+
+<p>మొక్కల మధ్య ఖాళీని భర్తీచేయుట (పడు పాదులు): అవసరమైతే ఒక వారం వ్యవధిలో పడు పాదులు వేసుకొని మొక్కల మధ్య ఖాళీని భర్తీ చేసుకోవాలి.</p>
+
+<p>అంతర సేద్యం మరియు కలుపు నియంత్రణ: కలుపు మొక్కల పెరుగుదలను నియంత్రించడానికి కలుపు తీయుట మరియు అంతర సాగు పద్దతులను అనుసరించండి. ఇది నేలలో తేమను ఉంచడానికి సహాయపడుతుంది. మరియు సిఫార్సు చేసిన కలుపు మందును పిచికారి చేసుకోవచ్చు.</p>
+
+<p>నీటిపారుదల: పంట యొక్క ముఖ్యమైన దశలు, అనగా విత్తనాలు మొలకదశ, మొలక పెరుగుదల, మొగ్గ తొడిగే దశ, కాయ ఏర్పడు మరియు అభివృద్ధి దశలలో నీటి కొరత లేకుండా చూసుకోవాలి, మరియు పొలంలో ఎక్కువ నీరు నిల్వ లేకుండా చూసుసుకోవాలి.</p>
+
+<p>సమగ్ర సశ్య రక్షణ :</p>
+<p>1. పైన చెప్పినట్లుగా వేసవిలో లోతుగా దున్నుట మరియు పొలం శుభ్రంగా ఉంచుకోవడం.</p>
+<p>2. విత్తన శుద్ధి: రసంపీల్చే పురుగులను నివారించడానికి బిజి పత్తి విత్తనాలను ముందే విత్తనశుద్ధి చేస్తారు.</p>
+<p>3. రసంపీల్చే పురుగుల నివారణ: పంట ఏ దశలోనైనా రసం పీల్చుకునే పురుగుల ప్రమాదకర స్థాయి (ఎకనామిక్ త్రేషోల్డ్ స్థాయి ETL) దాటితే, నియంత్రణ కోసం సిఫార్సు చేసిన పురుగుమందులను పిచికారీ చేయండి.</p>
+
+<p><strong>పురుగు ప్రమాదకర స్థాయి (ఎకనామిక్ త్రేషోల్డ్ ETL):</strong></p>
+<p>పచ్చదోమ — ఒక ఆకుకి 1-2 లార్వాలు లేదా రెక్కల పురుగులు</p>
+<p>తెల్ల దోమ — ఒక ఆకుకు 8-10 లార్వాలు లేదా రెక్కల పురుగులు</p>
+<p>పేనుబంక — 10% సోకిన మొక్కలు</p>
+<p>తామర పురుగు / పిండి నల్లి — ఒక ఆకుకి 10 నుండి 20 లార్వాలు లేదా 10 రెక్కల పురుగులు</p>
+
+<p>4. కాయ తొలుచు పురుగు (బోల్వార్మ్) నివారణ: పురుగుల ఉధృతి ఇటిఎల్ ఆధారిత ప్రమాదకర స్థాయికి చేరితే లేదా మించి ఉంటే పురుగుమందుల స్ప్రేయింగ్ అవసరం కావచ్చు. పురుగుల ఉధృతి ETL కి చేరుక తెలుసుకోవడానికి, ప్రతి వారం పొలంలో తిరిగి ఈ క్రింది చర్యలు తీసుకోవాలి:</p>
+
+<p>(i) శనగపచ్చపురుగు (అమెరికన్ బోల్వార్మ్): పొలంలో ఎకరాకు 20 మొక్కలను ఎంచుకుని, రెండు లేదా అంతకంటే ఎక్కువ లార్వాలు కనుగొంటే లేదా కాయలలో 10% శనగపచ్చపురుగు తిన్న కాయలు ఉన్నాయంటే ETL చేరుకుంది.</p>
+<p>(ii) గులాబీ రంగు పురుగు: ఎకరాకు 20 పువ్వులు లేదా పెద్ద కాయలు ఎంచుకుని, 2 లేదా అంతకంటే ఎక్కువ లార్వాలు కనుగొంటే ETL చేరుకుంది.</p>
+
+<p><strong>లింగాకర్షక బుట్టలు:</strong> ఎకరానికి 3 బుట్టలు పెట్టాలి. వరుసగా మూడు రాత్రులు ప్రతి బుట్టలో 8 గులాబీ పురుగులు కనిపిస్తే ETL చేరుకుంది. స్థానిక వ్యవసాయ విశ్వవిద్యాలయం సిఫార్సు చేసిన పురుగుమందులను వాడండి.</p>
+
+<p>5. ఇతర పద్ధతులు: లింగాకర్షక బుట్టలు, లైట్ ట్రాప్స్, అవరోధ పంటలు, పక్షి స్టాండ్లు, సహజ శత్రువులు, బయో పురుగుమందులు (Ha NPV, Neem) వాడండి.</p>
 <p>6. ఒకే తరగతికి చెందిన పురుగుమందుల వాడకాన్ని మానుకోండి.</p>
-<p>7. సకాలంలో పంట తీసివేయుట: అధికంగా గులాబీ లార్వా ఉన్న ప్రాంతాల్లో బోల్డార్డ్ II పంట పునర్జీవం (re-flushing) మానుకోండి.</p>
-<p>8. పొలం శుభ్రత: బోల్వార్మ్ లార్వాలు, ముఖ్యంగా గులాబీ రంగు, ఎండిన లేదా తెరుచుకోని కాయల్లో ఉంటాయి. అవి సేకరించి లోతైన గుంటల్లో నాశనం చేయండి.</p>
-<p>9. లోతుగా దున్నుట: పీపులను బహిర్గతం చేసి చంపడం ద్వారా గులాబీ లార్వాలను నాశనం చేయండి.</p>
-<p>పత్తి పంటలో సాధారణ తెగుళ్లు: Alternaria, Cercospora, Ramularia, Bacterial Blight. వీటి నివారణకు సిఫార్సు చేసిన పద్ధతులు పాటించండి.</p>
-<p>విల్ట్ (ఎండు తెగులు) నివారణ: నీటి ఒత్తిడి సమస్యలలో, ఎండు తెగులు ఎక్కువగా వచ్చే అవకాశం ఉంది. పంటను తగిన నీటిపారుదలతో పెంచండి. Nitrophoska-Foliar @3g/L మరియు Planofix @0.3ml/L స్ప్రేయింగ్ చేయండి. వ్యాధి లక్షణాలు గమనించిన వెంటనే బావిస్టిన్, కాంటాఫ్ లేదా ఇతర సిఫార్సు చేసిన మందులను పీచికారి చేయండి.</p>
-<p>గమనిక: ఈ మార్గదర్శకాలు వివిధ ప్రచురణల నుండి సేకరించబడ్డాయి. నేల రకం, వాతావరణం మరియు ఇతర పరిస్థితుల ప్రకారం పంట నిర్వహణ మరియు దిగుబడి మారవచ్చు. రైతులు తగిన జాగ్రత్తలు తీసుకోవాలి.</p>
+<p>7. సకాలంలో పంట తీసివేయుట: గులాబీ పురుగు ఎక్కువగా ఉన్న ప్రాంతాల్లో బోల్డార్డ్ II పంట యొక్క రీఫ్లషింగ్ మానుకోండి.</p>
+<p>8. పొలం శుభ్రత: ఎండిన లేదా తెరుచుకోని కాయల్లో ఉన్న బోల్వార్మ్ లార్వాలను సేకరించి పాతిపెట్టండి.</p>
+<p>9. లోతుగా దున్నుట: ప్యూపాలను బయటకు తీయడానికి పంట తర్వాత పొలాన్ని దున్నండి.</p>
+
+<p><strong>పత్తి పంటలోవచ్చే సాధారణ తెగుళ్ల నివారణ:</strong></p>
+<p>ఆల్టర్నేరియా ఆకు మచ్చ తెగులు, బూడిద తెగులు, లీఫ్ బ్లైట్ మరియు కాయ కుళ్ళు తెగులు నివారణకు క్రింది చర్యలు:</p>
+<ul>
+<li>తగినంత పోషకాలు మరియు నీటి నిర్వహణతో పంటను రక్షించండి.</li>
+<li>తగిన పశువుల ఎరువును వేయండి.</li>
+<li>తగిన మొక్కల మధ్య నిడివి ఉంచండి.</li>
+<li>తెగులు సోకిన ఆకులను తొలగించి నాశనం చేయండి.</li>
+<li>శిలీంద్ర తెగుళ్ల నియంత్రణకు కాపర్ ఆక్సిక్లోరైడ్ + బావిస్టిన్ ద్రావణంతో పిచికారీ చేయండి.</li>
+<li>బాక్టీరియా తెగుళ్ల నియంత్రణకు కాపర్ ఆక్సిక్లోరైడ్ + స్ట్రెప్టోసైక్లిన్ ద్రావణం వాడండి.</li>
+<li>తెగులు ప్రారంభం నుంచి 15–20 రోజుల వ్యవధిలో 2–3 సార్లు స్ప్రేయింగ్ చేయండి.</li>
+</ul>
+
+<p><strong>కాటన్ విల్ట్ (ఎండు తెగులు) నివారణ:</strong></p>
+<p>నీటి ఒత్తిడి పరిస్థితుల్లో తేలిక లేదా మధ్యస్థ నేలలో ఎక్కువగా కనిపిస్తుంది. Fusarium, Rhizoctonia వంటి శిలీంద్రాల వల్ల వస్తుంది. పంట కాండం పాక్షికంగా పాలిపోవడం, ఆకులు పసుపు రంగులోకి మారడం, వేరు కుళ్ళిపోవడం లక్షణాలు కనిపిస్తాయి.</p>
+
+<p>నివారణ చర్యలు:</p>
+<ul>
+<li>సకాలంలో నీటిపారుదల చేయండి.</li>
+<li>ఎండు తెగులు లేని పొలాలను ఎంచుకోండి.</li>
+<li>తగిన పశువుల ఎరువును వేయండి.</li>
+<li>Nitrophoska-Foliar @3g/L + Planofix @0.3ml/L పిచికారీ చేయండి.</li>
+<li>బావిస్టిన్ లేదా కాంటాఫ్ ద్రావణంతో నేలను తడపండి.</li>
+</ul>
+
+<p>దూది తీయుట: బోల్డార్డ్ II పత్తి పంటను సాధారణ పద్ధతిలో పండించవచ్చు.</p>
+
+<p><strong>గమనిక (Disclaimer):</strong> ఈ కరపత్రంలోని మార్గదర్శకాలు వివిధ ప్రచురణల నుండి సేకరించబడ్డాయి. నేల రకం, వాతావరణ పరిస్థితులు మరియు పంట నిర్వహణ ప్రకారం ఉత్పత్తి మారవచ్చు. పంట దిగుబడి మరియు ఉత్పత్తికి రైతులు బాధ్యత వహించాలి.</p>
 `
 },
-
 
 ta: {
   title: 'COTTON — தமிழ்',
   content: `
 <p>போல்கார்டு II மற்றும் பால்வார்ம் பருத்தி செடிகளை கையாளும் முறைகள்</p>
-<p>போல்கார்ட் II பருத்தி வீரிய விதைகள் BT புரதசத்து, Cry1Ac மற்றும் Cry2Ab உற்பத்தி செய்கின்றனர். இவை லெபிடெரான் பூச்சிகளை (அமெரிக்க பால்பார்ம், புள்ளி புழு, பால்வார்ம் மற்றும் புகையிலை கம்பளி பூச்சி) கட்டுப்படுத்துகின்றன. இந்திய அரசு டிசம்பர் 27, 2016, S.O.4215 (E) அறிவிப்பின் படி, இந்த விதைகள் 5% Non-BT Refugia உடன் கலந்துள்ளன. ஆனால் இது சாறு உறிஞ்சும் பூச்சிகளை கட்டுப்படுத்தாது.</p>
-<p>ரெபிஜியா (RIB) மேலாண்மை: பீட்டி விதைகளில் 5% Non-BT விதைகளை கலப்பது ரெபிஜியா-இன்-பேக் (RIB) முறையாக அழைக்கப்படுகிறது. நான்காம் விதைகள் பீட்டி ஹைபிரிட் போலவே காலநிலை மற்றும் நாரின் பண்புகளை கொண்டுள்ளன. இதனால் பருத்தி விளைவு குறையாது. ஆனால் பூச்சிகளில் மருந்து எதிர்ப்பு சக்தி குறையாமல் RIB உதவுகிறது மற்றும் BT தொழில்நுட்பத்தின் நிலைத்தன்மையை மேம்படுத்துகிறது.</p>
-<p>போல்கார்டு II க்கான அதிகளவு விளைவு பெறும் வழிமுறைகள்:</p>
-<p>நிலத்தை பண்படுத்துதல்: முந்தைய பயிர் செடிகளை அகற்றி ஆழமாக உழவும். இதனால் பூச்சிகள் மற்றும் கலப்புகளை கட்டுப்படுத்தலாம்.</p>
-<p>செயற்கை மற்றும் இயற்கை உரங்கள்: விதைப்பதற்கு 3–4 வாரங்களுக்கு முன்பு 5–6 டன் நில உரத்தை சேர்க்கவும். தேவையான ராசாயன உரங்களை பரிந்துரைக்கப்பட்ட முறையில் பயன்படுத்தவும்.</p>
-<p>மொக்குகள் இடைவெளி: உள்ளூர் பரிந்துரைகளின்படி இடைவெளியை பின்பற்றவும்.</p>
-<p>விதைகள் நடும் முறை: ஒவ்வொரு இடத்திலும் இரண்டு விதைகள் நடவும். முளைத்த பிறகு ஆரோக்கியமான செடியை விட்டு, பலவீனமான செடியை அகற்றவும்.</p>
-<p>இடைவெளி நிரப்புதல்: தேவையெனில் ஒரு வாரத்திற்குள் இடைவெளியை நிரப்பவும்.</p>
-<p>களை நீக்குதல்: பருத்தி ஆரோக்கியமாக வளர களைகளை நீக்கவும். பரிந்துரைக்கப்பட்ட கலப்புகளை பின்பற்றவும்.</p>
-<p>நீர்பாசனம்: முளை தோன்றிய போது முதல் வளர்ச்சி வரை போதுமான ஈரப்பதத்தை பராமரிக்கவும்.</p>
-<p>ஒருங்கிணைந்த பூச்சிகொல்லி மேலாண்மை: விதைகளை பக்குவப்படுத்தல், நிலத்தை பதப்படுத்துதல், உரமும் பூச்சி தடுப்பு முறைகளை பின்பற்றுதல். பூச்சி தாக்குதல் நுழைந்தால் பரிந்துரைக்கப்பட்ட பூச்சிகொல்லிகளை பயன்படுத்தவும்.</p>
-<p>பூச்சி – பொருளாதார வாசல் நிலை: தத்து பூச்சி – 1–2 நிம்ப்கள்/இலை, வெள்ளை ஈ – 8–10 நிம்ப்கள்/இலை, அசுவினி – 10% செடிகள் பாதிக்கப்பட்டவை, இலை பேன் – 10 நிம்ப்கள் அல்லது பெரியவர்கள் இலைகள், செம்பேன் – 10 பெரியவர்கள் அல்லது 20 நிம்ப்கள்.</p>
-<p>4. Bollworm Control: ETL அடிப்படையில் பூச்சிகொல்லி ஸ்ப்ரேசுகள். பொருளாதார எச்சரிக்கை அளவுக்கு (ETL) மேலாக பூச்சிகள் வந்தால், பரிந்துரைக்கப்பட்ட ஸ்ப்ரேய்களை பயன்படுத்தவும்.</p>
-<p>மற்ற பூச்சிகொல்லி வழிமுறைகள்: வேலி பயிர்கள், இயற்கை எதிரிகள், ஒரே பூச்சி மருந்தை மீண்டும் பயன்படுத்தாதல், உரிய நேரத்தில் அறுவடை செய்யுதல். பால்வார்ம் புழுக்கலை அகற்றவும், ஆழ உழுதலால் புழுக்கலை நாசம் செய்யவும்.</p>
-<p>பருத்தியில் வரும் பொதுவான நோய்கள்: Alternaria Leaf Blight, Cercospora Leaf Spot, Grey Mildew, Bacterial Blight. நோய்கள் ஆரம்பத்தில் சிறிய புள்ளியாக தோன்றும், பிறகு பரவுகின்றன. பேக்டீரியா Blight ஆரம்பத்தில் கருப்பு, பிறகு பழுப்பு நிறமாக மாறும்.</p>
-<p>மேலாண்மை: போதுமான ஊட்டச்சத்து மற்றும் நீர் பராமரிப்பு மூலம் நோய்களை தடுக்கும். இடைவெளி மற்றும் அணி முறையில் நடவு செய்யவும். பாதிக்கப்பட்ட இலைகளை அகற்றி அழிக்கவும். Copper Oxychloride / Bavistin / Streptocycline ஆகியவற்றை பரிந்துரைக்கப்பட்ட அளவில் பயன்படுத்தவும். நோய் தோன்றிய உடனே 15–20 நாளில் 2–3 முறை ஸ்ப்ரே செய்யவும்.</p>
-<p>பருத்தி வில்ட் நோய்: நீர்பற்றாக்குறை நிலங்களில் அதிகம் ஏற்படும். நீர் தேங்கி இருந்தால் நீரை அகற்றி, காளான் கொல்லிகளை பயன்படுத்தவும். நோய் எந்த கட்டத்திலும் வரலாம். செடிகள் வளர்ந்து பூக்கும் நேரத்தில் தாக்கப்படும். போதிய நேரத்தில் நீர்பாசனம் முக்கியம்.</p>
-<p>பயிர் மேலாண்மை: Nitrophoska Foliar 3gm/L, Planofix 0.3 ml/L ஆகியவை பூக்கும் நேரத்தில் பயன்படுத்தவும். வளர்ந்த செடிகளில் Bavistin + Condaf அல்லது Sheathmar 3 gm/L, 50–60 நாள் பின்பு பயன்படுத்து. நோய் தோன்றிய உடனே மருந்துகளை பயன்படுத்தவும்.</p>
-<p>அறுவடை: போல்கார்டு II பருத்தி நடைமுறைப்படி அறுவடை செய்ய வேண்டும்.</p>
-<p>பொறுப்பு: மேல்கண்ட தகவல்கள் பொதுவான நடைமுறைகளில் இருந்து பெறப்பட்டவை. மண், காலநிலை, பூச்சிகள் மற்றும் நோய்கள், பயிர் தன்மை மற்றும் விளைவு மாறுபடும். விவசாயிகள் தங்கள் பொறுப்பில் செயல்பட வேண்டும்.</p>
+<p>போல்கார்ட் II பருத்தி வீரிய விதைகள் BT புரதசத்து, Cry 1 AC மற்றும் Cry AB உற்பத்தி செய்கின்றனர். இவை லெபிடெரான் பூச்சி (அமெரிக்க பால்பார்ம், புள்ளி புழு, பிங், பால்வார்ம் மற்றும் புகையிலை கம்பளி பூச்சி) அரசு ஆணை, Gate, S.O.425 (E 27.12.2016, விவாசயத்துறை மற்றும் விவசாயிகளின் நலத்துறை, கூட்டுறவுத்துறை, இந்திய அரசு ஆணையின்படி இந்த விதைகள் 5% Non BT Refugia உடன் கலந்துள்ளது. ஆனால் இது சாறு உறிஞ்சும் பூச்சிகளை கட்டுப்படுத்தாது.</p>
+
+<p><strong>ரெபிஜியா (RIB) ரெபிஜியாவின் பூச்சி எதிர்ப்பு மேலாண்மை:</strong><br>
+5% நான் பீட்டி விதைகள் பீட்டி விதைகளுடன் கலப்பதுதான் ரெபிஜியாவின் நோக்கம்-Bag நான் பீட்டி விதைகள் வீசிய விதைகளை போலவே குணம் கொண்டவை. மகசூலில் மிககுறைவான இழப்பே எதிர்பார்க்கப்படும். ஆனால் பூச்சிகளின் மருந்து எதிர்ப்பு சக்தியை வெகுவாக குறைக்கும். இதன் மூலம் முழுமையான தொழில் முறையை கையாளலாம். கீழ்க்கண்ட வழிமுறைகளை கையாண்டால் அதிக லாபம் தரும் போல்கார்டு II விவசாயம் செய்யலாம்.</p>
+
+<p><strong>நிலத்தை பண்படுத்துதல்:</strong> முன்னர் பயிர் செய்து அறுவடை செய்த பயிர்களை நீட்டிக்கொண்டும் அப்புறப்படுத்த வேண்டும். பிறகு ஆழ உழுது பூச்சி மற்றும் களைகளை நீக்கவும். உழவை இரண்டு, மூன்று முறை செய்யவும்.</p>
+
+<p><strong>செயற்கை உரம்:</strong> இயற்கை மற்றும் செயற்கை உரங்கள் விதைப்பதற்கு மூன்று அல்லது நான்கு வாரங்களுக்கு முன்பு ஐந்து முதல் ஆறு டன் வரை இயற்கை உரத்தை இடவும். நடைமுறையில் உள்ள செயற்கை உரத்தை பயன்படுத்தும் இடைவெளி. நடைமுறையில் உள்ள இடைவெளியை கடைபிடிக்கவும்.</p>
+
+<p><strong>நடவு செய்யும் முறை:</strong> போதிய இடைவெளி விட்டு இரண்டு விதைகளாக நடவும். முளை விட்ட பிறகு ஆரோக்கியமான செடியை விட்டு மற்ற செடியை நீக்கி விடவும்.</p>
+
+<p><strong>இடைவெளி நிரப்புதல்:</strong> பருத்தி நன்கு வளர இடைவெளியை நிரப்பவும்.</p>
+
+<p><strong>விதைக்கும் முறை:</strong> இரண்டு இரண்டு விதைகளாக நடவு செய்து முளை விட்ட பிறகு ஆரோக்கியமான செடியை விட்டு மற்ற செடியை நீக்க வேண்டும்.</p>
+
+<p><strong>களை நீக்குதல்:</strong> பருத்தி ஆரோக்கியமாக வளர களைகளை நீக்கிவிடவும். இந்த நடைமுறையை கடைபிடிக்கவும்.</p>
+
+<p><strong>நீர்பாசனம்:</strong> முளை விட்டதில் இருந்து நன்கு வளரும் வரை போதுமான ஈரப்பதத்தை பராமரிக்கவும்.</p>
+
+<p><strong>ஒருங்கிணைந்த பூச்சிகொல்லி மேலாண்மை:</strong></p>
+<ol>
+<li>விதையை பக்குவப்படுத்தல், நிலத்தை பதப்படுத்துதல்.</li>
+<li>BGII பருத்தி விதைகள் உரியும், புழுக்கல் தாக்காத வண்ணம் பக்குவப்படுத்தப்பட்டவை.</li>
+<li>உரியும் பூச்சி தடுப்பு முறைகள்: இந்த பூச்சி தாக்குதல் நுவுடு அளவுக்கு மேலே சென்றால் கீழ்கண்ட பூச்சிகொல்லிகளை பயன்படுத்தவும்.</li>
+</ol>
+
+<p><strong>பூச்சி – பொருளாதார வாசல் நிலை:</strong></p>
+<ul>
+<li>தத்து பூச்சி – ஒரு இலைக்கு 1–2 நிம்ஃப்கள்</li>
+<li>வெள்ளை ஈ – ஒரு இலைக்கு 8–10 நிம்ஃப்கள்</li>
+<li>அசுவினி – 10% தாவரங்கள் பாதிக்கப்பட்டுள்ளன</li>
+<li>இலை பேன் – 10 நிம்ஃப்கள் அல்லது பெரியவர்கள் இலைகள்</li>
+<li>செம்பேன் – 10 பெரியவர்கள் அல்லது 20 நிம்ஃப்கள் ஸ்பிரேக்கள்</li>
+</ul>
+
+<p><strong>4. Bollworm Control:</strong> ETL அடிப்படையில் பூச்சிகொல்லி ஸ்பிரேசுகள். பொருளாதார எச்சரிக்கை அளவுக்கு (ETL) மேலாக பூச்சிகள் வந்தால், பரிந்துரைக்கப்பட்ட ஸ்ப்ரேய்களை பயன்படுத்தவும்.</p>
+
+<p><strong>மற்ற பூச்சிகொல்லி வழிமுறைகள்:</strong></p>
+<ul>
+<li>வேலி பயிர்கள் மற்றும் இந்த பூச்சிகளுக்கு எதிரான இயற்கை எதிரிகளை பயன்படுத்துதல்</li>
+<li>ஒரே பூச்சி மருந்தை பலமுறை பயன்படுத்துவதை தடுக்கவும்</li>
+<li>உரிய நேரத்தில் அறுவடை செய்யவும்</li>
+<li>பால்வார்ம் புழுக்கல், ஆழமாக புதைந்து கிடக்கலாம் அவை எல்லாவற்றையும் முழுமையாக நீக்கவும்</li>
+<li>ஆழ உழுதல் ஆழமாக புதைந்து கிடக்கும் புழுக்கலை நீக்கி விடும்</li>
+</ul>
+
+<p><strong>பருத்தியில் வரும் பொதுவான நோய்கள்:</strong></p>
+<ul>
+<li><strong>Alternaria Leaf blight:</strong> ஆரம்பத்தில் சிறு பழுப்பு நிற புள்ளியாக தோன்றி பிறகு பெரிதாகி இலை முழுவதும் பரவும்.</li>
+<li><strong>Cercospora Leaf Spot:</strong> ஆரம்பத்தில் சிகப்பு புள்ளியாக தோன்றி பிறகு பழுப்பு நிறமாக மாறும்.</li>
+<li><strong>Grey Mildew:</strong> சாம்பல் நிற புள்ளியாக தோன்றி பிறகு மஞ்சள், சிகப்பு மற்றும் பழுப்பு நிற காளான் போன்று இலைமேல் தோன்றும்.</li>
+<li><strong>Bacterial Blight:</strong> ஆரம்பத்தில் இலைகளின் மேல் கறுநிறமாக தோன்றி பிறகு பழுப்பாக மாறும்.</li>
+</ul>
+
+<p><strong>மேலாண்மை:</strong></p>
+<ol>
+<li>போதுமான ஊட்டச்சத்து மற்றும் நீர்சத்து இருந்தால் பெரும் அளவு மேற்கண்ட நோய்களை தவிர்க்கலாம்.</li>
+<li>போதுமான அளவு இடைவெளி காற்றில் உள்ள ஈரப்பதத்தை குறைக்கும்.</li>
+<li>நோய்வாய்ப்பட்ட இலைகளை அப்புறப்படுத்தி அழிப்பது நோய் பரவலை வெகுவாக தடுக்கும்.</li>
+<li>காளாண் நோய்களை கட்டுப்படுத்த Copper Oxychloride / Bavistin பயன்படுத்தலாம்.</li>
+<li>பேக்டீரியா Blight – Copper Oxychloride 2.25 g + Streptocycline 0.1 g/L பயன்படுத்தவும்.</li>
+<li>காளாணும், பேக்டீரியாவும் சேர்ந்த நோய் என்றால் Copper Oxychloride 2.5 g + Bavistin 1.5 g + Streptocycline 0.1 g/L.</li>
+<li>நோய் தோன்றிய உடனே மேற்கண்ட முறைகளை 15 நாள் இடைவெளியில் 2–3 முறை செய்யவும்.</li>
+</ol>
+
+<p><strong>பருத்தி வில்ட் நோயை கையாளும் முறை:</strong> இந்த நோய் நீர்பற்றாக்குறை காலங்களில் ஏற்படும். சில சமயம் நீர் தேங்கி இருந்தால் நீரை சுத்தமாக வைத்து காளான் கொல்லிகளை பயன்படுத்தவும். இந்த நோய் எந்த கட்டத்திலும் வரலாம். வளர்ந்த செடிகளில் பூக்கும் நேரத்தில் தாக்கும். நிறம் மாறி வேர்கள் அழுகும்.</p>
+
+<p><strong>தடுப்பு:</strong> போதிய நேரத்தில் நீர்பாசனம் இந்த நோயை தடுக்கும்.</p>
+<ul>
+<li>இந்த நோய் அடிக்கடி தாக்கக்கூடிய நிலங்களில் இதை பயிர் செய்யக்கூடாது.</li>
+<li>Nitrophoska Foliar 3 g/L + Planofix 0.3 ml/L பூக்கும் நேரத்தில் பயன்படுத்தவும்.</li>
+<li>வளர்ந்த செடிகளில் நோய் தடுக்கும் முறை: Bavistin + Condaf அல்லது Sheathmar 3 g/L நடவு நடந்த 50–60 நாட்களில் பயன்படுத்தவும். நோய் தோன்றிய உடனே இலை காய்வதற்கு முன் மருந்தை பயன்படுத்தவும்.</li>
+</ul>
+
+<p><strong>அறுவடை:</strong> போல்கார்டு II பருத்தி நடைமுறைப்படி அறுவடை செய்ய வேண்டும்.</p>
+
+<p><strong>பொறுப்பு துறுப்பு:</strong> மேல்கண்ட தகவல் அனைத்தும் பல குறிப்புகளில் இருந்து எடுக்கப்பட்ட பொதுவான நடைமுறை. அந்தந்த பகுதிகளில் உள்ள மண் வளத்திற்கு ஏற்றாற்போல் பருத்தியின் தன்மையும் மகசூலும் மாறுபடலாம். இருப்பினும் தகுந்த நேரத்தில் நடுதல், நீர்பாய்ச்சுதல், பூச்சிக்கொல்லி உபயோகித்தல் ஆகியவற்றை செய்தால் நல்ல மகசூல் வரும் என்ற நம்பிக்கை வரலாம். இவற்றை மீறி நல்ல மகசூல் கிடைக்காவிட்டால் இந்த நிர்வாகம் பொறுப்பேற்காது.</p>
+
+<p><strong>பணிப்பெண் வழிகாட்டல்:</strong> போல்கார்டு II பருத்தி தொழில்நுட்பத்தின் சரியான செயல்திறன் தயாரிப்பு பயன்பாட்டு வழிக்காட்டுதல்களைப் பின்பற்றும் விவசாயிகளைப் பொறுத்தது. மத்திய அல்லது மாநில வேளாண் நிறுவனங்களால் வழங்கப்பட்ட பருத்தி பயிர்மேலாண்மை வழிகாட்டுதல்களை பின்பற்ற பரிந்துரைக்கப்படுகிறது. தயாரிப்பு பயன்பாட்டு வழிகாட்டுதல்களை பின்பற்றாதது பூச்சி சகிப்புத்தன்மை மற்றும் தொழில்நுட்ப செயல்திறனை பாதிக்கக்கூடும். ஏதேனும் பூச்சி தாக்குதல்கள் ஏற்பட்டால், பரிந்துரைக்கப்பட்ட பயிர் பாதுகாப்பு நடவடிக்கைகளை பின்பற்றுவது விவசாயியின் பொறுப்பு. தொழில்நுட்ப உரிமதாரர் எந்தவொரு செயல்திறன் சிக்கல்களுக்கும் பொறுப்பேற்க மாட்டார்.</p>
 `
 },
 
@@ -271,41 +381,79 @@ kn: {
   title: 'COTTON — ಕನ್ನಡ',
   content: `
 <p>ಬೋಲ್ಯಾರ್ಡ್ | ಬೇಸಾಯ ಸೂಚನೆಗಳು ಮತ್ತು ಕಾಯಿ ಕೊರಕಗಳ ನಿರ್ವಹಣೆ</p>
-<p>ಬೋಲಾರ್ಡ್ II ಹತ್ತಿ ಮಿಶ್ರತಳಿಗಳು ಬಿಟಿ ಪ್ರೋಟೀನ್ನಳಾದ Cry1AC ಮತ್ತು Cry2Ab ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ, ಇದು ಅಮೆರಿಕನ್ ಬೋಲ್ಬರ್ಮ್, ಮಚ್ಚೆಯುಳ್ಳ ಬೋಲ್ಬರ್ಮ್, ಪಿಂಕ್ ಬೋಲ್ಬರ್ಮ್ ಮತ್ತು ತಂಬಾಕು ಮರಿಹುಳುಗಳ ಲೆಪಿಡೋಪೈರಾನ್ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ. ಕೃಷಿ ಮತ್ತು ರೈತರ ಕಲ್ಯಾಣ ಇಲಾಖೆಯು ಡಿಸೆಂಬರ್ 27, 2016 ರ ಜಾರಿಯಾದ ಅಧಿಸೂಚನೆ S.O.4215(E) ಪ್ರಕಾರ, ಈ ಬೀಜಗಳನ್ನು 5% Non-BT Refugia ಜೊತೆಗೆ ಪ್ಯಾಕೆಟ್‌ನಲ್ಲಿ ಮಿಶ್ರಣ ಮಾಡಲಾಗಿದೆ. ಆದರೆ ಇದು ರಸ ಹೀರುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಣ ಮಾಡದು.</p>
-<p>ಕೀಟ ನಿರೋಧಕ ನಿರ್ವಹಣೆಗಾಗಿ ರೆಫುಜಿಯಾ-ಇನ್-ಬ್ಯಾಗ್ (RIB) ಪರಿಕಲ್ಪನೆ: ಬಿಟಿ ಹತ್ತಿ ಬೀಜದ ಚೀಲದಲ್ಲಿ 5% ಬಿಟಿ ಅಲ್ಲದ ಬೀಜಗಳನ್ನು ಮಿಶ್ರಣ ಮಾಡುವುದನ್ನು RIB ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಬಿಟಿ ಅಲ್ಲದ ಹೈಬ್ರಿಡ್ ಬಿಟಿ ಹೈಬ್ರಿಡ್ನಂತೆಯೇ ಅವಧಿ ಮತ್ತು ಎಳೆಯ ಗುಣಧರ್ಮ ಹೊಂದಿರುತ್ತದೆ. ಇದರಿಂದ ಕನಿಷ್ಠ ಇಳುವರಿ ನಷ್ಟ ಮಾತ್ರ ಸಂಭವಿಸುತ್ತದೆ. RIB BT ತಂತ್ರಜ್ಞಾನಕ್ಕೆ ಹೆಚ್ಚಿನ ಶಕ್ತಿ ನೀಡುತ್ತದೆ.</p>
-<p>ಬೋಲ್ಯಾರ್ಡ್ II ಕ್ಕಾದ ಗರಿಷ್ಠ ಫಲಿತಾಂಶ ಪಡೆಯಲು ಈ ಕೆಳಗಿನ ಸಾಮಾನ್ಯ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಅನುಸರಿಸಬೇಕು:</p>
-<p>ಭೂ ತಯಾರಿ: ಹಿಂದಿನ ಬೆಳೆಯ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದುಹಾಕಿ, ಸುಟ್ಟು ಹಾಕಿ. ಮಣ್ಣಿನ ರೋಗಗಳು, ಕೀಟಗಳು ಮತ್ತು ಕಳೆಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಎರಡು ಆಳವಾದ ಉಳುಮೆ ಮಾಡಿ.</p>
+<p>ಬೋಲ್ಲಾರ್ಡ್ II ಹತ್ತಿ ಮಿಶ್ರತಳಿಗಳು ಬಿಟಿ ಪ್ರೋಟೀನ್ನಳಾದ Cry1AC ಮತ್ತು Cr2Ab ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ, ಇದು ಒಟ್ಟಿಗೆ ಅಮೆರಿಕನ್ ಬೋಲ್ಬರ್ಮ್, ಮಚ್ಚೆಯುಳ್ಳ ಬೋಲ್ಬರ್ಮ್, ಪಿಂಕ್ ಬೋಲ್ಯರ್ಮ್ ಮತ್ತು ತಂಬಾಕು ಮರಿಹುಳುಗಳ ಲೆಪಿಡೋಪೈರಾನ್ ಕೀಟಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ. ಕೃಷಿ ಮತ್ತು ರೈತರ ಕಲ್ಯಾಣ ಸಚಿವಾಲಯವು ಡಿಸೆಂಬರ್ 27, 2016 ರ ಗೆಜೆಟ್ ಅಧಿಸೂಚನೆ S.O.4215 (E) ಪ್ರಕಾರ ಪ್ಯಾಕೆಟ್ನಲ್ಲಿನ ಬೀಜಗಳನ್ನು 5% ನಾನ್-Bt ರೆಫ್ಯೂಜಿಯಾ ಜೊತೆಗೆ ಮಿಶ್ರಣ ಮಾಡಲಾಗಿದೆ. ಈ ತಂತ್ರಜ್ಞಾನವು ರಸ ಹೀರುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಣವನ್ನು ಒದಗಿಸುವುದಿಲ್ಲ.</p>
+
+<p><strong>ಕೀಟ ನಿರೋಧಕ ನಿರ್ವಹಣೆಗಾಗಿ ರೆಫುಜಿಯಾ-ಇನ್-ಬ್ಯಾಗ್ (RIB) ಪರಿಕಲ್ಪನೆ:</strong> ಬಿಟಿ ಹತ್ತಿ ಬೀಜದ ಚೀಲದಲ್ಲಿ 5% ಬಿಟಿ ಅಲ್ಲದ ಬೀಜಗಳನ್ನು ಮಿಶ್ರಣ ಮಾಡುವುದನ್ನು ರೆಫುಜಿಯಾ-ಇನ್-ಬ್ಯಾಗ್ (RIB) ಪರಿಕಲ್ಪನೆ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಬಿಟಿ ಅಲ್ಲದ ಹೈಬ್ರಿಡ್ ಬಿಟಿ ಹೈಬ್ರಿಡ್ನಂತೆಯೇ ಅದೇ ಅವಧಿ ಮತ್ತು ಎಳೆಯ ಗುಣಧರ್ಮ ಹೊಂದಿರುತ್ತದೆ. ಬಿಟಿ ಅಲ್ಲದ ಬೀಜಗಳ ಮಿಶ್ರಣದಿಂದಾಗಿ ಕನಿಷ್ಠ ಇಳುವರಿ ನಷ್ಟವನ್ನು ನಿರೀಕ್ಷಿಸಲಾಗಿದೆ. ಬಿಟಿಗೆ ಕೀಟಗಳಲ್ಲಿ ಪ್ರತಿರೋಧವನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸುವುದನ್ನು ವಿಳಂಬಗೊಳಿಸಲು RIB ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ತಂತ್ರಜ್ಞಾನದ ಬಾಳಿಕೆ ಹೆಚ್ಚಿಸುತ್ತದೆ.</p>
+
+<p><strong>ಬೋಲ್ಯಾರ್ಡ್ ಕೃಷಿಯಿಂದ ಗರಿಷ್ಠ ಪ್ರಯೋಜನಗಳನ್ನು ಪಡೆಯಲು ಮಾರ್ಗಸೂಚಿಗಳು:</strong></p>
+<p>ಭೂ ತಯಾರಿ: ಕ್ಷೇತ್ರ ನೈರ್ಮಲ್ಯಕ್ಕಾಗಿ ಹಿಂದಿನ ಬೆಳೆಯ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಸುಟ್ಟು ಹಾಕಿ. ಮಣ್ಣಿನಿಂದ ಹರಡುವ ರೋಗಗಳು, ಕೀಟಗಳು ಮತ್ತು ಕಳೆಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಬೇಸಿಗೆಯ ಎರಡು ಆಳವಾದ ಉಳುಮೆ ಮಾಡಿ.</p>
 <p>ಮಣ್ಣನ್ನು ಹದಗೊಳಿಸಲು ಎರಡು–ಮೂರು ಬಾರಿ ಹರಗಿ ಕ್ಷೇತ್ರವನ್ನು ತಯಾರಿಸಿ.</p>
-<p>ಗೊಬ್ಬರ ಮತ್ತು ರಸಗೊಬ್ಬರಗಳು: ಬಿತ್ತನೆ ಮಾಡುವ 3–4 ವಾರಗಳ ಮೊದಲು 5–6 ಟನ್ ಹಸಿರು ಗೊಬ್ಬರವನ್ನು ಉಪಯೋಗಿಸಿ. ಸ್ಥಳೀಯ ಶಿಫಾರಸು ಮತ್ತು ಮಣ್ಣಿನ ಪರೀಕ್ಷೆಯ ವರದಿಯಂತೆ ರಸಗೊಬ್ಬರಗಳನ್ನು ಬಳಸಿ.</p>
-<p>ಅಂತರ: ಸ್ಥಳೀಯ ಶಿಫಾರಸು ಪ್ರಕಾರ ಅಂತರವನ್ನು ಅಳವಡಿಸಬೇಕು.</p>
-<p>ಬಿತ್ತನೆ ವಿಧಾನ: ಎರಡು ಬೀಜಗಳನ್ನು ಕುಣಿಗೆಯಲ್ಲಿ ನೆಟ್ಟು, ಮೊಳಕೆಯೊಡೆಯುವಿಕೆ ನಂತರ ಪ್ರತಿ ಆರೋಗ್ಯಕರ ಸಸ್ಯವನ್ನು ಬಿಡಿ; ದುರ್ಬಲ ಸಸ್ಯವನ್ನು ತೆಗೆದುಹಾಕಿ.</p>
-<p>ಗ್ಯಾಪ್ ಭರ್ತಿ: ಅಗತ್ಯವಿದ್ದರೆ ಒಂದು ವಾರದೊಳಗೆ ಖಾಲಿ ಇರುವ ಸ್ಥಳಗಳನ್ನು ತುಂಬಿಸಿ.</p>
-<p>ಕಳೆ ನಿಯಂತ್ರಣ: ಕಳೆ ಬೆಳವಣಿಗೆಯನ್ನು ತಡೆಯಲು ಕೈ ಕಳೆ ತೆಗೆಯುವಿಕೆ ಮತ್ತು ಅಂತರ ಕೃಷಿ ಪದ್ಧತಿಗಳನ್ನು ಅನುಸರಿಸಿ. ಶಿಫಾರಸು ಮಾಡಿದ ಕಳೆ ನಾಶಕಗಳನ್ನು ಬಳಸಿರಿ.</p>
-<p>ನೀರಾವರಿ: ಬೆಳೆ ಬೆಳವಣಿಗೆಯ ನಿರ್ಣಾಯಕ ಹಂತಗಳಲ್ಲಿ ತೇವಾಂಶ ಲಭ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಹೂಬಿಡುವಿಕೆ ಮತ್ತು ಕಾಯಿ ರಚನೆ ಹಂತದಲ್ಲಿ ಹತ್ತಿ ಚಿರಂತನ ನೀರಾವರಿ ಅಗತ್ಯ.</p>
-<p>ಸಂಯೋಜಿತ ಕೀಟ ನಿರ್ವಹಣೆ (IPM):</p>
-<p>1. ಬೇಸಿಗೆ ಉಳುಮೆ ಮತ್ತು ಕ್ಷೇತ್ರ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸಿ.</p>
-<p>2. ಬೀಜ ಸಂಸ್ಕರಣೆ: ಹೀರುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಹತ್ತಿ ಬೀಜವನ್ನು ಮೊದಲೇ ಸಂಸ್ಕರಿಸಿ.</p>
-<p>3. ಕೀಟ ನಿಯಂತ್ರಣ: ಹೀರುವ ಕೀಟಗಳ ಸಂಖ್ಯೆ ಆರ್ಥಿಕ ಮಿತಿಯನ್ನು (ETL) ಮೀರಿ ಹೋದರೆ, ಶಿಫಾರಸು ಮಾಡಿದ ಕೀಟನಾಶಕಗಳನ್ನು ಬಳಸಿ.</p>
-<p>ಕೀಟಗಳು ಮತ್ತು ಸೌಕರ್ಯ: 1–2 ಲಾರ್ವಗಳು/ಇಲೆಗೆ; 6–10 ಲಾರ್ವಗಳು/ಇಲೆಗೆ; 10% ಸಸ್ಯಗಳು ಮುಟ್ಟಿದಾಗ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳಿ.</p>
-<p>ಬೋಲ್ಬರ್ಮ್ ನಿಯಂತ್ರಣ: ETL ಆಧಾರಿತ ಕೀಟನಾಶಕಗಳು, ಸ್ಥಳೀಯ ಶಿಫಾರಸುಗಳನ್ನು ಅನುಸರಿಸಿ.</p>
-<p>ಬಿತ್ತನೆ ಬಳಿಕ: ಬಲೆ/ಸೀಮೆತಡೆ ಬೆಳೆಗಳು, ಹಣ್ಣುಗಳು, ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳು ಮತ್ತು ಐಪಿಎಂ ಅಭ್ಯಾಸಗಳನ್ನು ಅನುಸರಿಸಿ. ಒಂದೇ ವರ್ಗದ ಕೀಟನಾಶಕಗಳನ್ನು ಪದೇ ಪದೇ ಬಳಸಬೇಡಿ.</p>
-<p>ಆಳವಾದ ಉಳುಮೆ: ಬೋಲ್ಬರ್ಮ್ ಪಾತಾಳವನ್ನು ನಾಶ ಮಾಡಿ ಲಾರ್ವಾಗಳ ಬೆಳವಣಿಗೆಯನ್ನು ತಡೆಗಟ್ಟುತ್ತದೆ.</p>
-<p>ಹತ್ತಿಯಲ್ಲಿನ ಸಾಮಾನ್ಯ ರೋಗಗಳು: ಆಲ್ಟರ್ನೇರಿಯಾ ಲೀಫ್ ಸ್ಪಾಟ್, ಸೆರ್ಕೋಸ್ಪೆರಾ ಲೀಫ್ ಸ್ಪಾಟ್, ಗೋ ಮಿಲ್ಲೂ, ಬ್ಯಾಕ್ಟೀರಿಯಲ್ ಬ್ಲೈಟ್.</p>
-<p>ನಿರ್ವಹಣೆ: ಸಾಕಷ್ಟು ಪೋಷಣೆ ಮತ್ತು ನೀರಾವರಿ, ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆಯುವುದು, ಶಿಫಾರಸು ಮಾಡಿದ ಕೀಟನಾಶಕ/ಫಂಗಿಸೈಡ್ ಉಪಯೋಗ.</p>
-<p>ವಿಲ್ಡ್ (ಬಾಡು ರೋಗ) ನಿರ್ವಹಣೆ: ತೇವಾಂಶದ ಒತ್ತಡದ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಹೆಚ್ಚು ಸಂಭವಿಸುತ್ತದೆ. ನಿಟ್ಟಾಗಿ ನೀರಾವರಿ ಮಾಡಿ, ಹಳೆಯ ಸಸ್ಯದ ಹೂಬಿಡುವಿಕೆ ಹಂತದಲ್ಲಿ ಹಾನಿ ತಡೆ.</p>
-<p>ನಿರ್ವಹಣೆ: ಹತ್ತಿ ಬೆಳೆಗೆ ಸೂಕ್ತ ನೀರಾವರಿ, ವಿಲ್ಡ್ ಪುನರಾವರ್ತನೆ ಇರುವ ಕ್ಷೇತ್ರಗಳನ್ನು ತಪ್ಪಿಸಿ, ಸಾಕಷ್ಟು ಗೊಬ್ಬರ, Nitrophoska Foliar 3 ಗ್ರಾಂ/L + Planofix 0.3 ml/L ಬಳಸಿ. ಬೆಳೆಯ ಹಂತದಲ್ಲಿ Bavistin + Condaf / Sheathmar ಉಪಯೋಗಿಸಿ.</p>
-<p>ಅறುವಡೆ: ಬೋಲ್ಯಾರ್ಡ್ II ಹತ್ತಿ ಬೆಳೆ ಸಾಮಾನ್ಯ ಪದ್ಧತಿಗಳಂತೆ ಕೊಯ್ದು ಮಾಡಬೇಕು.</p>
-<p>Disclaimer: ಈ ಮಾರ್ಗದರ್ಶಿಕೆ ವಿವಿಧ ಪ್ರಕಟಣೆಗಳಿಂದ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ಮಣ್ಣು, ಹವಾಮಾನ, ಕೀಟ/ರೋಗ ದಾಳಿ ಮುಂತಾದವು ಬೆಳೆ ಮತ್ತು ಉತ್ಪಾದನೆ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು. ರೈತರು ತಮ್ಮ ಹೊಣೆಗಾರಿಕೆಯಲ್ಲಿ ಕೆಲಸ ಮಾಡಬೇಕು. ತಂತ್ರಜ್ಞಾನದ ಲೈಸೆನ್ಸರ್ ಯಾವುದೇ ನಷ್ಟಕ್ಕೆ ಹೊಣೆಗಾರನಾಗುವುದಿಲ್ಲ.</p>
-<p>Stewardship Guidance: ಬೋಲ್ಯಾರ್ಡ್ II ಹತ್ತಿ ತಂತ್ರಜ್ಞಾನ ಸರಿ ಫಲಿತಾಂಶ ಪಡೆಯಲು ರೈತರು ಶಿಫಾರಸು ಮಾಡಿದ ಮಾರ್ಗದರ್ಶಿಗಳನ್ನು ಅನುಸರಿಸಬೇಕು. ETL ಆಧಾರಿತ ಶಿಫಾರಸುಗಳನ್ನು ಪಾಲಿಸದೇ ಹೋದರೆ ತಂತ್ರಜ್ಞಾನ ಕಡಿಮೆ ಪರಿಣಾಮಕಾರಿ ಆಗಬಹುದು.</p>
+
+<p><strong>ಗೊಬ್ಬರ ಮತ್ತು ರಸಗೊಬ್ಬರಗಳು:</strong> ಬಿತ್ತನೆ ಮಾಡುವ 3–4 ವಾರಗಳ ಮೊದಲು 5–6 ಟನ್ ಸಗಣಿ ಗೊಬ್ಬರವನ್ನು ಉಪಯೋಗಿಸಿ. ಮಣ್ಣಿನ ಪರೀಕ್ಷಾ ವರದಿ ಮತ್ತು ಸ್ಥಳೀಯ ಶಿಫಾರಸು ಮಾಡಿದ ಪದ್ಧತಿಗಳ ಪ್ರಕಾರ ರಸಗೊಬ್ಬರಗಳನ್ನು ಉಪಯೋಗಿಸಿ.</p>
+<p>ಅಂತರ: ಸ್ಥಳೀಯ ಶಿಫಾರಸು ಮಾಡಿದ ಅಭ್ಯಾಸಗಳ ಪ್ರಕಾರ ಅಂತರದ ಅವಶ್ಯಕತೆಗಳನ್ನು ಅಳವಡಿಸಿಕೊಳ್ಳಬೇಕು.</p>
+<p>ಬಿತ್ತನೆ ವಿಧಾನ: ಪ್ರತಿ ಕುಣಿಗೆಯಲ್ಲಿ 2 ಬೀಜಗಳನ್ನು ಬಿತ್ತಿರಿ. ಮೊಳಕೆಯೊಡೆಯುವಿಕೆ ನಂತರ ಆರೋಗ್ಯಕರ ಸಸ್ಯವನ್ನು ಬಿಡಿ ಮತ್ತು ದುರ್ಬಲ ಸಸ್ಯವನ್ನು ತೆಗೆದುಹಾಕಿ.</p>
+<p>ಗ್ಯಾಪ್ ಭರ್ತಿ: ಅಗತ್ಯವಿದ್ದರೆ ಒಂದು ವಾರದೊಳಗೆ ಖಾಲಿ ಸ್ಥಳಗಳನ್ನು ತುಂಬಿಸಿ.</p>
+
+<p><strong>ಅಂತರ ಕೃಷಿ ಮತ್ತು ಕಳೆ ನಿಯಂತ್ರಣ:</strong> ಕಳೆಗಳ ಬೆಳವಣಿಗೆಯನ್ನು ತಡೆಯಲು ಕೈ ಕಳೆ ತೆಗೆಯುವಿಕೆ ಮತ್ತು ಅಂತರ ಕೃಷಿ ಪದ್ಧತಿಗಳನ್ನು ಅನುಸರಿಸಿ. ಇದು ಉತ್ತಮ ಗಾಳಿಯಾಡುವಿಕೆ ಮತ್ತು ತೇವಾಂಶ ಇರಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಅಗತ್ಯವಿದ್ದರೆ ಶಿಫಾರಸು ಮಾಡಿದ ಕಳೆ ನಾಶಕಗಳನ್ನು ಉಪಯೋಗಿಸಿ.</p>
+
+<p><strong>ನೀರಾವರಿ:</strong> ಬೆಳೆ ಬೆಳವಣಿಗೆಯ ನಿರ್ಣಾಯಕ ಹಂತಗಳಲ್ಲಿ ತೇವಾಂಶ ಲಭ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಅಂದರೆ ಮೊಳಕೆಯೊಡೆಯುವಿಕೆ, ಮೊಳಕೆ ಬೆಳವಣಿಗೆ, ಹೂಬಿಡುವಿಕೆ, ಕಾಯಿ ರಚನೆ ಮತ್ತು ಅಭಿವೃದ್ಧಿ ಹಂತಗಳಲ್ಲಿ. ಹೆಚ್ಚುವರಿ ನೀರು ನಿಲ್ಲದಂತೆ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</p>
+
+<p><strong>ಸಂಯೋಜಿತ ಕೀಟ ನಿರ್ವಹಣೆ (IPM):</strong></p>
+<ol>
+<li>ಬೇಸಿಗೆ ಉಳುಮೆ ಮತ್ತು ಕ್ಷೇತ್ರ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸಿ.</li>
+<li>ಬೀಜ ಸಂಸ್ಕರಣೆ: ಹೀರುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಬಿಜಿ ಹತ್ತಿ ಬೀಜಗಳನ್ನು ಮೊದಲೇ ಸಂಸ್ಕರಿಸಿ.</li>
+<li>ಕೀಟ ನಿಯಂತ್ರಣ: ಹೀರುವ ಕೀಟಗಳ ಪ್ರಮಾಣ ಆರ್ಥಿಕ ಮಿತಿ (ETL) ಮೀರಿ ಹೋದರೆ ಶಿಫಾರಸು ಮಾಡಿದ ಕೀಟನಾಶಕಗಳನ್ನು ಸಿಂಪಡಿಸಿ.</li>
+</ol>
+
+<p><strong>ಆರ್ಥಿಕ ಮಿತಿ ಮಟ್ಟ (ETL):</strong></p>
+<ul>
+<li>ಜಾಸಿಡ್ಸ್ — 1–2 ಲಾರ್ವಾ ಅಥವಾ ಚಿಟ್ಟೆಗಳು / ಎಲೆಗೆ</li>
+<li>ಗಿಡಹೇನುಗಳು — 6–10 ಲಾರ್ವಾ ಅಥವಾ ಚಿಟ್ಟೆಗಳು / ಎಲೆಗೆ</li>
+<li>ಪೀನೂಬಂಕ — 10% ಸಸ್ಯಗಳು ಸೋಂಕಿತ</li>
+</ul>
+
+<p><strong>ಕಾಯಿ ಕೊರಕಗಳ ನಿರ್ವಹಣೆ:</strong> ಕಾಯಿ ಕೊರಕಗಳ ಪ್ರಮಾಣ ETL ಮಟ್ಟ ತಲುಪಿದರೆ ಅಥವಾ ಮೀರಿದರೆ ಕೀಟನಾಶಕ ಸ್ಪ್ರೇ ಅಗತ್ಯ. ಅಮೆರಿಕನ್ ಬೋಲ್ವರ್ಮ್ ಮತ್ತು ಪಿಂಕ್ ಬೋಲ್ವರ್ಮ್ ಲಾರ್ವಾಗಳ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ. 20 ಸಸ್ಯಗಳಲ್ಲಿ 2 ಅಥವಾ ಹೆಚ್ಚು ಲಾರ್ವಾಗಳಿದ್ದರೆ ETL ತಲುಪಿದೆ ಎಂದು ಪರಿಗಣಿಸಿ.</p>
+
+<p>ಗುಲಾಬಿ ಬೋಲ್ವರ್ಮ್ ಪತ್ತೆಗೆ ಫೆರೋಮೋನ್ ಬಲೆಗಳು (ಎಕರೆಗೆ 3) ಅಳವಡಿಸಿ. ಸತತ ಮೂರು ರಾತ್ರಿ ಪ್ರತಿ ಬಲೆಗೆ ಸರಾಸರಿ 8 ಪತಂಗಗಳು ಸಿಕ್ಕರೆ ETL ತಲುಪಿದೆ.</p>
+
+<p>ಸ್ಥಳೀಯ ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಅಥವಾ ಕೃಷಿ ಇಲಾಖೆಯ ಶಿಫಾರಸು ಮಾಡಿದ ಕೀಟನಾಶಕಗಳನ್ನು ಬಳಸಿ.</p>
+
+<p><strong>ಇತರೆ ಕ್ರಮಗಳು:</strong> ಬಲೆ ಬೆಳೆಗಳು, ಮೋಹಕ ಬಲೆಗಳು, ಪಕ್ಷಿ ಪರ್ಚ್‌ಗಳು, ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳು ಮತ್ತು ಜೈವಿಕ ಕೀಟನಾಶಕಗಳು (HaNPV, ಬೇವು) ಬಳಸಿ. ಒಂದೇ ವರ್ಗದ ಕೀಟನಾಶಕಗಳನ್ನು ಪದೇಪದೇ ಬಳಸಬೇಡಿ.</p>
+
+<p><strong>ಪಿಬಿಡಬ್ಲ್ಯೂ (ಪಿಂಕ್ ಬೋಲ್ವರ್ಮ್) ಪ್ರದೇಶಗಳಲ್ಲಿ:</strong> ಬೋಲ್ಯಾರ್ಡ್ II ಬೆಳೆಯ ಮರು-ಫ್ಲಷಿಂಗ್ ತಪ್ಪಿಸಿ. ತೆರೆಯದ ಬೋಲ್ಗಳನ್ನು ತೆಗೆದು ಆಳವಾಗಿ ಹೂತುಹಾಕಿ. ಸುಗ್ಗಿಯ ನಂತರ ಆಳವಾದ ಉಳುಮೆ ಮಾಡಿ.</p>
+
+<p><strong>ಸಾಮಾನ್ಯ ರೋಗಗಳ ನಿರ್ವಹಣೆ:</strong> ಆಲ್ಟರ್ನೇರಿಯಾ ಲೀಫ್ ಸ್ಪಾಟ್, ಸೆರ್ಕೋಸ್ಪೆರಾ ಲೀಫ್ ಸ್ಪಾಟ್, ಗೋ ಮಿಲ್ಲೂ, ಬ್ಯಾಕ್ಟೀರಿಯಲ್ ಬ್ಲೈಟ್ ಇತ್ಯಾದಿ ರೋಗಗಳ ನಿಯಂತ್ರಣಕ್ಕಾಗಿ ಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ:</p>
+<ul>
+<li>ಸಾಕಷ್ಟು ಪೋಷಣೆ ಮತ್ತು ನೀರಾವರಿ ನೀಡಿರಿ.</li>
+<li>ಸಾಕಷ್ಟು ಕೊಟ್ಟಿಗೆ ಗೊಬ್ಬರವನ್ನು ನೀಡಿರಿ.</li>
+<li>ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆಯಿರಿ ಮತ್ತು ನಾಶಪಡಿಸಿ.</li>
+<li>ಕಾಪರ್ ಆಕ್ಸಿಕ್ಲೋರೈಡ್ ಅಥವಾ ಬಾವಿಸ್ಟಿನ್ + ಸ್ಟ್ರೆಪ್ಟೋಸೈಕ್ಲಿನ್ ಮಿಶ್ರಣದೊಂದಿಗೆ ಸಿಂಪಡಿಸಿ.</li>
+<li>15–20 ದಿನಗಳ ಅಂತರದಲ್ಲಿ 2–3 ಬಾರಿ ಪುನರಾವರ್ತಿಸಿ.</li>
+</ul>
+
+<p><strong>ವಿಲ್ಟ್ (ಬಾಡು ರೋಗ) ನಿರ್ವಹಣೆ:</strong> ಫುಸಾರಿಯಮ್ ಆಕ್ಸಿಸ್ಪೋರಮ್ ಮತ್ತು ರೈಜೋಕ್ಟೋನಿಯಾ ಸೋಲಾನಿ ಶಿಲೀಂಧ್ರಗಳಿಂದ ಉಂಟಾಗುತ್ತದೆ. ಮಣ್ಣಿನ ತೇವಾಂಶದ ಒತ್ತಡದಿಂದ ಹೆಚ್ಚಾಗುತ್ತದೆ. ಲಕ್ಷಣಗಳು: ಕಾಂಡದ ಬಣ್ಣ ಬದಲಾವಣೆ, ಎಲೆಗಳು ಹಳದಿಯಾಗುವುದು ಮತ್ತು ಬೇರು ಕೊಳೆಯುವುದು.</p>
+
+<p>ನಿರ್ವಹಣೆ:</p>
+<ul>
+<li>ಸಮಯೋಚಿತ ನೀರಾವರಿ ಮಾಡಿ.</li>
+<li>ಹಳೆಯ ವಿಲ್ಟ್ ರೋಗ ಇದ್ದ ಕ್ಷೇತ್ರಗಳನ್ನು ತಪ್ಪಿಸಿ.</li>
+<li>ಸಾಕಷ್ಟು ಕೊಟ್ಟಿಗೆ ಗೊಬ್ಬರ ನೀಡಿ.</li>
+<li>Nitrophoska Foliar @3g/L + Planofix @0.3ml/L ಸಿಂಪಡಿಸಿ.</li>
+<li>Bavistin + Contaf ಅಥವಾ Sheathmar ಉಪಯೋಗಿಸಿ.</li>
+</ul>
+
+<p><strong>ಕೊಯ್ತ:</strong> ಬೋಲ್ಯಾರ್ಡ್ II ಹತ್ತಿ ಬೆಳೆ ಸಾಮಾನ್ಯ ಪದ್ಧತಿಗಳಂತೆ ಕೊಯ್ದು ಮಾಡಬೇಕು.</p>
+
+<p><strong>Disclaimer:</strong> ಈ ಮಾರ್ಗಸೂಚಿಗಳು ವಿವಿಧ ಪ್ರಕಟಣೆಗಳಿಂದ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ. ಮಣ್ಣು, ಹವಾಮಾನ, ಕೀಟ/ರೋಗ ದಾಳಿ ಮುಂತಾದವು ಬೆಳೆ ಮತ್ತು ಉತ್ಪಾದನೆ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು. ರೈತರು ತಮ್ಮ ಹೊಣೆಗಾರಿಕೆಯಲ್ಲಿ ಕೆಲಸ ಮಾಡಬೇಕು. ತಂತ್ರಜ್ಞಾನದ ಲೈಸೆನ್ಸರ್ ಯಾವುದೇ ನಷ್ಟಕ್ಕೆ ಹೊಣೆಗಾರನಾಗುವುದಿಲ್ಲ.</p>
+
+<p><strong>Stewardship Guidance:</strong> ಬೋಲ್ಯಾರ್ಡ್ II ಹತ್ತಿ ತಂತ್ರಜ್ಞಾನ ಸರಿಯಾದ ಫಲಿತಾಂಶ ಪಡೆಯಲು ರೈತರು ಶಿಫಾರಸು ಮಾಡಿದ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಅನುಸರಿಸಬೇಕು. ETL ಆಧಾರಿತ ಶಿಫಾರಸುಗಳನ್ನು ಪಾಲಿಸದೇ ಹೋದರೆ ತಂತ್ರಜ್ಞಾನ ಕಡಿಮೆ ಪರಿಣಾಮಕಾರಿ ಆಗಬಹುದು. ಪರಿಸರ ಶರತ್ತುಗಳಿಂದ ಉಂಟಾಗುವ ಕಾಯಿ ಕೊರಕಗಳ ಉಲ್ಬಣ (ಪಿಂಕ್ ಬೋಲ್ವರ್ಮ್ ಪ್ರತಿರೋಧ ಸೇರಿದಂತೆ) ನಿಯಂತ್ರಣಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಿದ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬೇಕು. ಲೈಸೆನ್ಸರ್ ಯಾವುದೇ ತೊಂದರೆ ಅಥವಾ ಹಾನಿಗೆ ಹೊಣೆಗಾರನಾಗುವುದಿಲ್ಲ.</p>
 `
 },
 
 mr: {
   title: 'COTTON — मराठी',
   content: `
-<p>बोलगार्ड २ मध्ये दोन जनुके आहे, क्राय १ ए सी व क्राय २ ए वी ह्या दुहेरी जनुकामुळे प्राथमिक बोंड अळ्या जसे की अमेरिकन बोंडअळी, टिपकेदार बोंडअळी (फरिआस), गुलाबी बोंडअळी (पेक्टिनोफोरा), तसेच दुय्यम लेपिडोप्टेरन्स जसे तंबाखु पाने खाणारी अळी (स्पोडोप्टेरा) सुध्दा नियंत्रित राहते. मात्र हे तंत्रज्ञान रसशोषक किड्यापासुन संरक्षण करीत नाही.</p>
-
-<p>कृषि व शेतकरी कल्याण मंत्रालय, सहकारी, कृषि व शेतकरी कल्याण विभाग भारत सरकार नुसार गॅझेट नोटीफिकेशन क्र. एस.ओ. ४२१५ (ई) दिनांक २७.१२.२०१६ प्रमाणे प्रत्येक पॅकेट मधिल बीटी बियाणे हे ५% गैर बीटी बियाणे मिश्रीत आहे.</p>
+<p>बोलगार्ड २ मध्ये दोन जनुके आहे, क्राय १ ए सी व क्राय २ ए वी ह्या दुहेरी जनुकामुळे प्राथमिक बोंड अळ्या जसे की अमेरिकन बोंडअळी, टिपकेदार बोंडअळी (फरिआस), गुलाबी बोंडअळी (पेक्टिनोफोरा), तसेच दुय्यम लेपिडोप्टेरन्स जसे तंबाखु पाने खाणारी अळी (स्पोडोप्टेरा) सुध्दा नियंत्रित राहते. मात्र हे तंत्रज्ञान रसशोषक किड्यापासुन संरक्षण करीत नाही. कृषि व शेतकारी कल्याण मंत्रालय, सहकारी, कृषि व शेतकारी कल्याण विभाग भारत सरकार नुसार गॅझेट नोटीफिकेशन क्र. एस.ओ. ४२१५ (ई) दिनांक २७.१२.२०१६ प्रमाणे प्रत्येक पॅकेट मधिल बीटी बियाणे हे ५% गैर बीटी बियाणे मिश्रीत आहे.</p>
 
 <p>रेफ्युजीया इन बैंग (RIB) किटकांची प्रतिकार क्षमता व्यवस्थापन संकल्पना वीटी कपाशीच्या वियाण्याच्या पॅकेट मध्ये ५% गैर बीटी बियाणे मिश्रीत करणे याला RIB संकल्पना म्हणतात. हे गैर बीटी बियाणे पेरणीनंतर कालावधी करीता व तंतुधागा गुणवत्तेत बीटी बियाण्यांसारखेच असते. RIB मुळे अल्प उत्पादन तोटा अपेक्षित आहे परंतु किटकांमध्ये बीटी विरुद्ध निर्माण होणरी प्रतिकार क्षमता टकुन हे तंत्रज्ञान जास्त काळासाठी प्रभावी ठरू शकते.</p>
 
@@ -323,52 +471,73 @@ mr: {
 
 <p>खाडे भरणे: झाडांची संख्या योग्य ठेवण्यासाठी आवश्यकतेप्रमाणे एका आठवड्याच्या आंत खाडे भरावे.</p>
 
-<p>आंतर मशागत आणि तण नियंत्रण: आवश्यकतेनुसार निंदणी व कोळपणी करावी. त्यामुळे जमीनीमध्ये हवा खेळती राहुन ओलावा टिकून राहतो. शिफारशीनुसार तणनाशक वापरावा.</p>
+<p>आंतर मशागत आणि तण नियंत्रण: आवश्यकतेनुसार निंदणी व कोळपणी करावी. त्यामुळे जमीनीमध्ये हवा खेळती राहुन ओलावा टिकून राहण्यास मदत होते. शिफारशीनुसार तणनाशकाचा वापर करावा.</p>
 
-<p>सिंचन: उगवण, रोपट्याची वाढ, पाती व फुल लागण्याची अवस्था तसेच बोंड परिपक्व व विकास अवस्थेमध्ये पाण्याचा ताण बसणार नाही याची दक्षता घ्यावी. कापूस या पीकावर पाणी साचल्यास त्वरित परिणाम होतो. शेतामधून पाणी निचरा होईल याची काळजी घ्यावी.</p>
+<p>सिंचन: उगवण, रोपट्याची वाढ, पाती व फुल लागण्याची अवस्था तसेच बोंड परिपक्व व विकास अवस्थेमध्ये पाण्याचा ताण बसणार नाही याची दक्षता घ्यावी. कापुस या पीकावर पाणी साचल्याने त्वरित परिणाम होतो. त्यामुळे शेतामधून पाणी निचरा होईल याची काळजी घ्यावी.</p>
 
-<p>एकात्मिक किड व रोग व्यवस्थापन (IPM): खालीलप्रमाणे एकात्मिक किड व रोग व्यवस्थापन वापरावे.</p>
+<p>एकात्मिक किड व रोग व्यवस्थापन: खालीलप्रमाणे एकात्मिक किड व रोग व्यवस्थापनचा वापर करावा.</p>
 
-<p>१. उन्हाळ्यात नांगरणी व शेतीची साफसफाई करावी.</p>
+<p>१. पुर्वी सांगितल्याप्रमाणे उन्हाळ्यात नांगरणी व शेतीची साफसफाई करावी.</p>
+<p>२. बीज प्रक्रिया: रसशोषक किटकांच्या नियंत्रणासाठी बोलगार्ड २ बियाणांवर बीज प्रक्रिया उपाय आधीच केलेला आहे.</p>
+<p>३. रसशोषक किटकांचे नियंत्रण: पीक वाढीच्या कोणत्याही अवस्थेत जर रसशेषक किटकांच्या संसर्गाने आर्थिक नुकसानाची पातळी ओलांडली तर नियंत्रणासाठी शिफारशी प्रमाणे किटकनाशकाची फवारणी करावी.</p>
 
-<p>२. बीज प्रक्रिया: रसशोषक किटकांच्या नियंत्रणासाठी बोलगार्ड २ बियाणांवर बीज प्रक्रिया आधीच केलेली आहे.</p>
-
-<p>३. रसशोषक किटकांचे नियंत्रण: पीक वाढीच्या कोणत्याही अवस्थेत जर आर्थिक नुकसानाची पातळी ओलांडली तर शिफारसीनुसार किटकनाशक फवारणी करावी.</p>
-
-<p>किड व आर्थिक नुकसानीची पातळी:</p>
-<p>वुडतूडे: पानागणिक १-२ किटक</p>
-<p>पांढरी माशी: पानागणिक ८-१० किटक</p>
+<p><strong>किड आर्थिक नुकसानीची पातळी:</strong></p>
+<p>वुडतूडे: पानागणिक छोट्या किंवा प्रौढ अवस्थेतील १-२ किटक</p>
+<p>पांढरी माशी: पानागणिक छोट्या किंवा प्रौढ अवस्थेतील ८-१० किटक</p>
 <p>मावा: १०% रोपांवर प्रदुर्भाव</p>
-<p>फुलकिडे: पानागणिक १०-२० किटक</p>
-<p>कोळी: पानागणिक १० किटक</p>
+<p>फुलकिडे: पानागणिक छोट्या किंवा प्रौढ अवस्थेतील १०-२० किटक</p>
+<p>कोळी: पानागणिक छोट्या किंवा प्रौढ अवस्थेतील १० किटक</p>
 
-<p>४. बोंडअळी व्यवस्थापन: आर्थिक नुकसान पातळीवर आधारित फवारणी करावी. ETL ओलांडल्यास आवश्यक ती फवारणी करावी. बोलगार्ड २ चे शेत तपासण्यासाठी अमेरिकन व गुलाबी बोंडअळीचे मोजमाप करावे.</p>
+<p>४. बोंडअळी व्यवस्थापन: आर्थिक नुकसान पातळीवर आधारित फवारणी जर बोंडअळीच्या प्रादुर्भावाचे प्रमाण आर्थिक नुकसान पातळी पेक्षा वाढले तर बोंडअळी व्यवस्थापनाच्या फवारणीची आवश्यकता आहे.</p>
 
-<p>५. इतर IPM पध्दती: फेरोमोन सापळे, प्रकाश सापळे, पक्षी, नैसर्गिक शत्रु, जैविक किटकनाशके (HANPV, कडूलिंब) वापरता येतील.</p>
+<p>प्रादुर्भावाचे प्रमाण अर्थिक नुकसानीची पातळी ओलांडते किंवा नाही यावर नियंत्रण ठेवणयासाठी आठवड्यातुन एकदा बोलगार्ड २ चे शेत खालील प्रमाणे तपासा:</p>
 
+<p>अमेरिकन बोंडअळी (हिरवी बोंडअळी): एका एकराच्या विविध भागातील २० झाडे निवडा, जर २ किंवा अधिक अमेरिकन बोंडअळी (२० झाडामधुन) किंवा या निवडलेल्या झाडांच्या बोंडापैकी १०% बोंड अमेरिकन बोंडअळीच्या नुकसानाने ग्रस्त दिसली तर समजावे की आर्थिक नुकसानीची पातळी गाठली आहे.</p>
+
+<p>गुलाबी बोंडअळी: एका एकराच्या विविध भागातुन २० फुले किंवा २० बोंडे निवडा आणि त्यातील गुलाबी बोंडअळीची संख्या मोजा, जर २ किंवा अधिक गुलाबी बोंडअळ्या निघाल्या तर समजावे की आर्थिक नुकसानीची सीमा ओलांडली आहे.</p>
+
+<p>आर्थिक नुकसानीची पातळी कामगंध सापळ्याचा वापर करून देखिल ठरविता येते (प्रती एकर ३ कामगंध सापळे). जर दर सापळ्यात सलग ३ रात्री ८ किंवा जास्त गुलाबी बोंडअळीची फुलपाखर आढळली तर आर्थिक नुकसान पातळी ओलांडली समजावे.</p>
+
+<p>आपल्या भागातील कृषी विद्यापाठ किंवा कृषी विभागाने सुचविलेल्या किटकनाशकाची फवारणी करावी.</p>
+
+<p>नोंद: बीटी बियाण्याच्या नियंत्रणात नसलेल्या इतर किटकांसाठी (लष्करी अळी, स्पोडोप्टेरा, स्टेम, विवील इ.) शिफारसयुक्त किटकनाशकांचा वापर करावा.</p>
+
+<p>५. इतर IPM पध्दती: फेरोमोन सापळे, प्रकाश सापळे, पक्ष्यांना बसण्यासाठी जागा, नैसर्गिक शत्रु, जैविक किटकनाशके (HANPV, कडूलिंब) वापरावीत.</p>
 <p>६. एकाच वर्गातील किटकनाशकाचा वारंवार वापर टाळावा.</p>
-
-<p>७. पीकांची वेळेवर विल्हेवाट करावी. फरदड घेणे टाळावे.</p>
-
+<p>७. पीकांची वेळेवर विल्हेवाट करावी. गुलाबी बोंडअळीचा प्रादुर्भाव आढळल्यास फरदड घेणे टाळावे.</p>
 <p>८. शेतीची साफसफाई: गुलाबी बोंडअळीचे कोष गोळा करून नष्ट करावे.</p>
-
 <p>९. खोलवर नांगरणी करून बोंडअळीचे प्रभावी नियंत्रण करावे.</p>
 
 <p>कापशीवरील रोग व्यवस्थापन: अल्टरनॅरीया लिफ ब्लाईट, दहीया, लिफ ब्लाईट, बोंड सडणे.</p>
 
-<p>व्यवस्थापन: पुरेशे पोषण, योग्य सिंचन, प्रद्याभावित पाने काढणे, शिफारस केलेले फवारणी उपाय वापरणे.</p>
+<p>व्यवस्थापन:</p>
+<p>१. पुरेशे पोषण व योग्य सिंचन यामुळे पाने रोगाला लवकर बळी पडणार नाहीत.</p>
+<p>२. पुरेशे शेणखत देण्यावर भर द्यावा.</p>
+<p>३. लागवड करतांना दोन ओळीमध्ये जास्त अंतर ठेवा.</p>
+<p>४. प्रद्याभावित पाने काढून टाकावी.</p>
+<p>५. कॉपर ऑक्सीक्लोराईड किंवा बाविस्टीन + सल्फर यांची फवारणी करावी.</p>
+<p>६. बुरशी व बॅक्टेरियल रोगांच्या संमिश्र प्रादुर्भावासाठी कॉपर ऑक्सीक्लोराईड + बाविस्टीन + स्ट्रेप्टोसायाक्लिन फवारावे.</p>
+<p>७. रोगाची प्रथमिक लक्षणं दिसताच फवारणी सुरू करावी व १५-२० दिवसांच्या अंतराने २-३ वेळा करावी.</p>
 
-<p>मर रोग व्यवस्थापन: हलकी व मध्यम माती, पाण्याचा ताण, Fusarium, Rhizoctonia प्रमुख रोगाणु, वेळेवर पाणी निचरा, बुरशीनाशक वापर.</p>
+<p>कपाशी पीकावरील मर रोगचे व्यवस्थापन: हलक्या व मध्यम मातीमध्ये पाण्याच्या ताणात ह्या रोगाची लक्षणे अधिक दिसतात. फ्युझेरियम, रायझोक्टोनिया हे प्रमुख घटक आहेत. पाणी साचल्यास तात्काळ निचरा करावा व बुरशीनाशक वापरावे.</p>
 
-<p>वेचणी: बोलगार्ड २ ची प्रचलित वेचणी पद्धतीने करावी.</p>
+<p>व्यवस्थापन:</p>
+<p>१. हलक्या मातीत पीक घेतले असल्यास वेळेवर पाणीपुरवठा करावा.</p>
+<p>२. ज्या शेतांना मर रोग येण्याचा पूर्व इतिहास आहे त्या शेतात कापूस घेऊ नये.</p>
+<p>३. शेणखताचा पुरेसा वापर करावा.</p>
+<p>४. पीक वाढीच्या अवस्थेत नायट्रोफॉस्क ३ ग्रॅम/लीटर व फुले येण्याच्या वेळी प्लॅनोफिक्स ०.३ मि.लि./लीटर यांची फवारणी करावी.</p>
 
-<p>तळटीप: माहिती विविध प्रकाशनावर आधारित. पीक उत्पादन जमिनीचा प्रकार, हवामान, किटक/रोग यांवर अवलंबून असते. कंपनी उत्पादनासाठी जबाबदार नाही.</p>
+<p>प्रौढ झाडांवरील मर रोगाचे नियंत्रण:</p>
+<p>१. पेरणीनंतर ५०-६० दिवसांनी बेविस्टीन + कॉन्टाफ किंवा शीथमार ३ ग्रॅम/लीटर प्रमाणे झाडाच्या बुडाशी टाकावे.</p>
+<p>२. मर रोगाची लक्षणे दिसताच तात्काळ पाण्याचा निचरा करावा.</p>
 
-<p>स्टेवर्डशिप गाईडन्स: शेतकऱ्यांनी मार्गदर्शक उपाययोजना पालन करणे आवश्यक. मार्गदर्शन न पाळल्यास बोलगार्ड २ प्रभावी ठरत नाही आणि कंपनी जबाबदार नाही.</p>
+<p>वेचणी: प्रचलित वेचणी पध्दतीने बोलगार्ड २ ची वेचणी करावी.</p>
+
+<p><strong>तळटीप:</strong> ह्या पत्रकामधील माहिती ही विविध प्रकाशनावर आधारित आहे. पीकांचे उत्पादन हे जमिनीचा प्रकार, हवामान, व्यवस्थापन, रोग व किटकांचा प्रादुर्भाव यावर अवलंबून असते. कंपनी उत्पादनासाठी जबाबदार नाही.</p>
+
+<p><strong>स्टेवर्डशिप गाईडन्स:</strong> शेतकऱ्यांनी मार्गदर्शक उपाययोजना पालन करणे आवश्यक आहे. मार्गदर्शन न पाळल्यास बोलगार्ड २ प्रभावी ठरत नाही आणि कंपनी जबाबदार नाही.</p>
 `
 }
-
-
   },
 
   mustard: {
