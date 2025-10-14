@@ -300,4 +300,19 @@ main {
   font-size: 0.9rem;
 }
 
+/* Styling for hero-section h1 */
+.hero-section h1 {
+  font-size: 48px; /* Default font size for normal view */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 30px; /* Font size for mobile view */
+  }
+  .container h3 {
+  font-size: 1.92rem; 
+}
+}
+
 /* --- End of styles.css --- */
