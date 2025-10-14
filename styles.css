@@ -99,23 +99,91 @@ main {
 }
 
 /* Language cards behave like buttons */
-.language-card {
-  cursor: pointer;
-  transition: transform 180ms ease, box-shadow 180ms ease;
-  height: 180px !important; /* Smaller height for language cards */
+/* Legacy language-card styles removed (replaced by tabs) */
+
+/* Language tabs */
+#language-tabs {
+  background: transparent;
+  box-shadow: none;
 }
-.language-card:hover {
-  transform: translateY(-4px);
+
+
+/* make anchors fill the tab and center text */
+#language-tabs .tab a {
+  color: #444;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+  padding: 10px 12px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+}
+
+#language-tabs .tab a:hover {
+  transform: translateY(-3px);
+}
+
+/* Distribute tabs evenly across the available width (6 tabs -> 16.6667%) */
+#language-tabs .tabs .tab {
+  width: calc(100% / 6) !important;
+  float: left !important;
+  display: block !important;
+}
+
+/* Active state styling - default active look */
+#language-tabs .tab a.active {
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transform: translateY(0);
+  color: #fff !important; /* ensure contrast when active */
 }
 
-/* Language card specific content adjustments */
-.language-card .card-content {
-  height: 100px; /* Adjusted content height for language cards */
+/* Per-language active background using data-lang attribute on the <a> */
+#language-tabs .tab a.active[data-lang="en"] { background-color: #f57c00; }
+#language-tabs .tab a.active[data-lang="hi"] { background-color: #43a047; }
+#language-tabs .tab a.active[data-lang="te"] { background-color: #0288d1; }
+#language-tabs .tab a.active[data-lang="ta"] { background-color: #d32f2f; }
+#language-tabs .tab a.active[data-lang="kn"] { background-color: #6a1b9a; }
+#language-tabs .tab a.active[data-lang="mr"] { background-color: #00796b; }
+
+/* Responsive: on very small screens allow horizontal scroll instead of forcing tiny tabs */
+@media (max-width: 600px) {
+  #language-tabs .tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #language-tabs .tabs .tab {
+    width: auto !important;
+    display: inline-block !important;
+    float: none !important;
+  }
+  #language-tabs .tab a {
+    display: inline-block;
+    padding: 10px 14px;
+  }
 }
 
-.language-card .card-action {
-  height: 50px; /* Slightly smaller action area for language cards */
+/* Per-language colors (background on active) */
+.lang-en { background-color: #f57c00; color: #fff !important; } /* orange */
+.lang-hi { background-color: #43a047; color: #fff !important; } /* green */
+.lang-te { background-color: #0288d1; color: #fff !important; } /* blue */
+.lang-ta { background-color: #d32f2f; color: #fff !important; } /* red */
+.lang-kn { background-color: #6a1b9a; color: #fff !important; } /* purple */
+.lang-mr { background-color: #00796b; color: #fff !important; } /* teal */
+
+/* Note: active state is styled above (consolidated) */
+
+/* We will toggle per-language classes on the active link via JS to apply background color */
+
+/* Tabs responsiveness: allow horizontal scroll on very small screens */
+#language-tabs .tabs {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+#language-tabs .tab {
+  display: inline-block !important;
+  float: none !important;
 }
 
 /* Manual section animation: starts hidden, .show toggles fade-in */
