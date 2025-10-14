@@ -2342,8 +2342,6 @@ mr: {
 
   }
 
-
-
   /* Add more crops here */
 };
 

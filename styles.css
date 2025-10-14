@@ -261,6 +261,32 @@ main {
   }
 }
 
+/* Mobile-specific styles for language grid */
+@media (max-width: 600px) {
+  .lang-tab {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  .lang-tab[data-lang="en"] { background-color: #f57c00; } /* orange */
+  .lang-tab[data-lang="hi"] { background-color: #43a047; } /* green */
+  .lang-tab[data-lang="te"] { background-color: #0288d1; } /* blue */
+  .lang-tab[data-lang="ta"] { background-color: #d32f2f; } /* red */
+  .lang-tab[data-lang="kn"] { background-color: #6a1b9a; } /* purple */
+  .lang-tab[data-lang="mr"] { background-color: #00796b; } /* teal */
+
+  .lang-tab:hover {
+    filter: brightness(1.1);
+  }
+}
+
 /* Footer style */
 .page-footer {
   margin-top: 28px;
